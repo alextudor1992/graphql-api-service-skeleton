@@ -12,8 +12,8 @@ export class Example {
   @Field(() => String, { nullable: true })
   title?: string
 
-  constructor() {
-    this.exampleId = v4()
+  constructor(example?: string) {
+    this.exampleId = example ?? v4()
     this.title = 'simple title | ' + this.exampleId
   }
 }

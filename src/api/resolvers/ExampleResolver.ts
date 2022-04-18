@@ -8,7 +8,7 @@ import { PaginationArgs } from '@api/resolvers/Pagination'
 export class ExampleResolver extends PaginationArgs implements ResolverInterface<Example> {
   @Query((returns) => Example)
   async example(@Arg('exampleId') exampleId: string): Promise<Example> {
-    return new Example()
+    return new Example(exampleId)
   }
 
   @Query((returns) => [Example])

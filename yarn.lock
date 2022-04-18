@@ -9,48 +9,6 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
-"@apollo/client@^3.4.10":
-  version "3.5.10"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@apollo%2fclient/-/client-3.5.10.tgz#43463108a6e07ae602cca0afc420805a19339a71"
-  integrity sha512-tL3iSpFe9Oldq7gYikZK1dcYxp1c01nlSwtsMz75382HcI6fvQXyFXUCJTTK3wgO2/ckaBvRGw7VqjFREdVoRw==
-  dependencies:
-    "@graphql-typed-document-node/core" "^3.0.0"
-    "@wry/context" "^0.6.0"
-    "@wry/equality" "^0.5.0"
-    "@wry/trie" "^0.3.0"
-    graphql-tag "^2.12.3"
-    hoist-non-react-statics "^3.3.2"
-    optimism "^0.16.1"
-    prop-types "^15.7.2"
-    symbol-observable "^4.0.0"
-    ts-invariant "^0.9.4"
-    tslib "^2.3.0"
-    zen-observable-ts "^1.2.0"
-
-"@apollo/composition@^2.0.1":
-  version "2.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@apollo%2fcomposition/-/composition-2.0.1.tgz#59c02de751d4fb4be85a497d9fa49a204895b5ff"
-  integrity sha512-5WCtpOomn1fV+JWbXAxKctjEjHSxmFLC3XYZkm1j4q3m/rtYDyqpRZBoqIE+j7dot3pRJjD6aSgCKvE1P8tyPg==
-  dependencies:
-    "@apollo/federation-internals" "^2.0.1"
-    "@apollo/query-graphs" "^2.0.1"
-
-"@apollo/core-schema@~0.3.0":
-  version "0.3.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@apollo%2fcore-schema/-/core-schema-0.3.0.tgz#c6c1a6821fb326501d73eb85d920bbf57906cc77"
-  integrity sha512-v+Ys6+W1pDQu+XwP++tI5y4oZdzKrEuVXwsEenOmg2FO/3/G08C+qMhQ9YQ9Ug34rvQGQtgbIDssHEVk4YZS7g==
-  dependencies:
-    "@protoplasm/recall" "^0.2"
-
-"@apollo/federation-internals@^2.0.1":
-  version "2.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@apollo%2ffederation-internals/-/federation-internals-2.0.1.tgz#582bbc732015ec63117da958e79ded7495fbbf79"
-  integrity sha512-as2lL0tChwQx3PgBKQ8hELal2paBFsbucXSba+Gi84ZP1wGtYtl5kJmE7DVImsC+/CAVjEFWM7aWQGJg6Im8Ow==
-  dependencies:
-    "@apollo/core-schema" "~0.3.0"
-    chalk "^4.1.0"
-    js-levenshtein "^1.1.6"
-
 "@apollo/federation@0.27.0":
   version "0.27.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@apollo%2ffederation/-/federation-0.27.0.tgz#2ee13b28cff94817ff07bb02215aa764d8becba3"
@@ -58,39 +16,6 @@
   dependencies:
     apollo-graphql "^0.9.3"
     lodash.xorby "^4.7.0"
-
-"@apollo/federation@^0.30.0":
-  version "0.30.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@apollo%2ffederation/-/federation-0.30.0.tgz#8f21005aa35364b73283d737aeea6cac09101830"
-  integrity sha512-z255abB6EJGt7W+ffMgYwt8IGR/n3FpFv6WS6htV3F1h4IeIOynZQT5FrrJf5cuhDueMkW1ORaO96jcfmJETgg==
-  dependencies:
-    apollo-graphql "^0.9.3"
-    apollo-server-types "^3.0.2"
-    lodash.xorby "^4.7.0"
-
-"@apollo/gateway@^2.0.1":
-  version "2.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@apollo%2fgateway/-/gateway-2.0.1.tgz#eb6d8179712de885cf3a0cb46cc69998f80fa3cf"
-  integrity sha512-h1cnXtm2ZyR2guIJtv5fnwJoarcst/G4j1VQRbvYoKkbB/EWjeKY12ykHOfOt/BhYPoIo7gdT9c2AnAwa1+ZAA==
-  dependencies:
-    "@apollo/composition" "^2.0.1"
-    "@apollo/core-schema" "~0.3.0"
-    "@apollo/query-planner" "^2.0.1"
-    "@apollo/utils.logger" "^1.0.0"
-    "@josephg/resolvable" "^1.0.1"
-    "@opentelemetry/api" "^1.0.1"
-    "@types/node-fetch" "2.6.1"
-    apollo-reporting-protobuf "^0.8.0 || ^3.0.0"
-    apollo-server-caching "^0.7.0 || ^3.0.0"
-    apollo-server-core "^2.23.0 || ^3.0.0"
-    apollo-server-env "^3.0.0 || ^4.0.0"
-    apollo-server-errors "^2.5.0 || ^3.0.0"
-    apollo-server-types "^0.9.0 || ^3.0.0"
-    async-retry "^1.3.3"
-    loglevel "^1.6.1"
-    make-fetch-happen "^8.0.0"
-    pretty-format "^27.0.0"
-    sha.js "^2.4.11"
 
 "@apollo/protobufjs@1.2.2":
   version "1.2.2"
@@ -111,26 +36,6 @@
     "@types/node" "^10.1.0"
     long "^4.0.0"
 
-"@apollo/query-graphs@^2.0.1":
-  version "2.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@apollo%2fquery-graphs/-/query-graphs-2.0.1.tgz#e4ecf5a8c7dda74ba41f843a37371db0773c52c8"
-  integrity sha512-jZ0Ljbzfn99XKzmH8QparOiv78xOSbJ3IzccBsPIwz7/QgcBuy82vvTTIoAGApDtPoqivP/rGinVN6ocigtHMQ==
-  dependencies:
-    "@apollo/federation-internals" "^2.0.1"
-    deep-equal "^2.0.5"
-    ts-graphviz "^0.16.0"
-
-"@apollo/query-planner@^2.0.1":
-  version "2.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@apollo%2fquery-planner/-/query-planner-2.0.1.tgz#7cc5318bdf838d6cd7e9a4955b8b9ccbc37b40ee"
-  integrity sha512-4a6mmPGd6PrKCUSBWaSoYks6hTZ1nWEi1mlBCLHVKCseBiQyj2/eOp7UoIe/0737HMRyQh/LCBPGgMPTEsPzHQ==
-  dependencies:
-    "@apollo/federation-internals" "^2.0.1"
-    "@apollo/query-graphs" "^2.0.1"
-    chalk "^4.1.0"
-    deep-equal "^2.0.5"
-    pretty-format "^27.0.0"
-
 "@apollo/rover@^0.2.0":
   version "0.2.1"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@apollo%2frover/-/rover-0.2.1.tgz#b7280563b48a0414af5d891e0851f77d9c313bf7"
@@ -139,11 +44,6 @@
     binary-install "^0.1.1"
     console.table "^0.10.0"
     detect-libc "^1.0.3"
-
-"@apollo/utils.logger@^1.0.0":
-  version "1.0.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@apollo%2futils.logger/-/utils.logger-1.0.0.tgz#6e3460a2250c2ef7c2c3b0be6b5e148a1596f12b"
-  integrity sha512-dx9XrjyisD2pOa+KsB5RcDbWIAdgC91gJfeyLCgy0ctJMjQe7yZK5kdWaWlaOoCeX0z6YI9iYlg7vMPyMpQF3Q==
 
 "@apollographql/apollo-tools@^0.5.0", "@apollographql/apollo-tools@^0.5.3":
   version "0.5.3"
@@ -182,13 +82,6 @@
   version "1.6.27"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@apollographql%2fgraphql-playground-html/-/graphql-playground-html-1.6.27.tgz#bc9ab60e9445aa2a8813b4e94f152fa72b756335"
   integrity sha512-tea2LweZvn6y6xFV11K0KC8ETjmm52mQrW+ezgB2O/aTQf8JGyFmMcRPFgUaQZeHbWdm8iisDC6EjOKsXu0nfw==
-  dependencies:
-    xss "^1.0.8"
-
-"@apollographql/graphql-playground-html@1.6.29":
-  version "1.6.29"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@apollographql%2fgraphql-playground-html/-/graphql-playground-html-1.6.29.tgz#a7a646614a255f62e10dcf64a7f68ead41dec453"
-  integrity sha512-xCcXpoz52rI4ksJSdOCxeOCn2DLocxwHf9dVT/Q90Pte1LX+LY+91SFtJF3KXVHH8kEin+g1KKCQPKBjZJfWNA==
   dependencies:
     xss "^1.0.8"
 
@@ -237,17 +130,6 @@
     gensync "^1.0.0-beta.2"
     json5 "^2.2.1"
     semver "^6.3.0"
-
-"@babel/generator@7.0.0-beta.38":
-  version "7.0.0-beta.38"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@babel%2fgenerator/-/generator-7.0.0-beta.38.tgz#6115a66663e3adfd1d6844029ffb2354680182eb"
-  integrity sha512-aOHQPhsEyaB6p2n+AK981+onHoc+Ork9rcAQVSUJR33wUkGiWRpu6/C685knRyIZVsKeSdG5Q4xMiYeFUhuLzA==
-  dependencies:
-    "@babel/types" "7.0.0-beta.38"
-    jsesc "^2.5.1"
-    lodash "^4.2.0"
-    source-map "^0.5.0"
-    trim-right "^1.0.1"
 
 "@babel/generator@7.16.5":
   version "7.16.5"
@@ -1191,15 +1073,6 @@
     debug "^4.1.0"
     globals "^11.1.0"
 
-"@babel/types@7.0.0-beta.38":
-  version "7.0.0-beta.38"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@babel%2ftypes/-/types-7.0.0-beta.38.tgz#2ce2443f7dc6ad535a67db4940cbd34e64035a6f"
-  integrity sha512-SAtyEjmA7KiEoL2eAOAUM6M9arQJGWxJKK0S9x0WyPOosHS420RXoxPhn57u/8orRnK8Kxm0nHQQNTX203cP1Q==
-  dependencies:
-    esutils "^2.0.2"
-    lodash "^4.2.0"
-    to-fast-properties "^2.0.0"
-
 "@babel/types@7.16.0":
   version "7.16.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@babel%2ftypes/-/types-7.16.0.tgz#db3b313804f96aadd0b776c4823e127ad67289ba"
@@ -1243,51 +1116,6 @@
     make-error "^1"
     ts-node "^8"
     tslib "^1"
-
-"@gar/promisify@^1.0.1":
-  version "1.1.3"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@gar%2fpromisify/-/promisify-1.1.3.tgz#555193ab2e3bb3b6adc3d551c9c030d9e860daf6"
-  integrity sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==
-
-"@graphql-tools/merge@8.2.9":
-  version "8.2.9"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@graphql-tools%2fmerge/-/merge-8.2.9.tgz#f4bb6ca58d0d89dbfa4fded6a1457bb359de1450"
-  integrity sha512-mHRrqMc1NTL6MALBQK1DmAzSxJIKoaCaW7ZCk5bRGzVj/MNQz3OsqlDb/+t9/ONT0V+WI/uxBFsrLMwa4p6L7A==
-  dependencies:
-    "@graphql-tools/utils" "8.6.8"
-    tslib "~2.3.0"
-
-"@graphql-tools/mock@^8.1.2":
-  version "8.6.7"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@graphql-tools%2fmock/-/mock-8.6.7.tgz#2beb4bce7a853d9c5894441643bf3219c19016cf"
-  integrity sha512-KQ/L0kddMgEQG0mATI4vWdeL7d7SJg8Y+SaJUWClLPmTcepZ0xJA9zTXBheklnj3XOCwgAV0Fhzx1pSzYGGpfw==
-  dependencies:
-    "@graphql-tools/schema" "8.3.9"
-    "@graphql-tools/utils" "8.6.8"
-    fast-json-stable-stringify "^2.1.0"
-    tslib "~2.3.0"
-
-"@graphql-tools/schema@8.3.9", "@graphql-tools/schema@^8.0.0":
-  version "8.3.9"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@graphql-tools%2fschema/-/schema-8.3.9.tgz#2b83464a0ef083c92d7076da0fa5939f2f5a1e34"
-  integrity sha512-9YFCzn0sYAGTWhZrVYY/neK5cie3s0dNm7Qq38tkhOh2ME5BtHW/8ZIq+UrLGKsBYwa+Qjb/UojGWUm2yG/z6Q==
-  dependencies:
-    "@graphql-tools/merge" "8.2.9"
-    "@graphql-tools/utils" "8.6.8"
-    tslib "~2.3.0"
-    value-or-promise "1.0.11"
-
-"@graphql-tools/utils@8.6.8":
-  version "8.6.8"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@graphql-tools%2futils/-/utils-8.6.8.tgz#a0824ed5810f66c504df4e97c5900786ac0c260e"
-  integrity sha512-EdUUeKi/wp/UvuknyINpQ/uXDqTM3qxPPPDIq5RpfW0zQOeCvbZcx8xHoMox0TYKvKtg3zoB7aprUtoW+iZLxw==
-  dependencies:
-    tslib "~2.3.0"
-
-"@graphql-typed-document-node/core@^3.0.0":
-  version "3.1.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@graphql-typed-document-node%2fcore/-/core-3.1.1.tgz#076d78ce99822258cf813ecc1e7fa460fa74d052"
-  integrity sha512-NQ17ii0rK1b34VZonlmT2QMJFI70m0TRwbknO/ihlbatXyaktDhN/98vBiUU6kNBPljqGqyIrl2T4nY2RpFANg==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
@@ -1506,7 +1334,7 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@josephg/resolvable@^1.0.0", "@josephg/resolvable@^1.0.1":
+"@josephg/resolvable@^1.0.0":
   version "1.0.1"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@josephg%2fresolvable/-/resolvable-1.0.1.tgz#69bc4db754d79e1a2f17a650d3466e038d94a5eb"
   integrity sha512-CtzORUwWTTOTqfVtHaKRJ0I1kNQd1bpn3sUh8I3nJDVY+5/M/Oe1DnEWzPQvqq/xPIIkzzzIP7mfCoAjFRvDhg==
@@ -1549,22 +1377,6 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
-
-"@npmcli/fs@^1.0.0":
-  version "1.1.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@npmcli%2ffs/-/fs-1.1.1.tgz#72f719fe935e687c56a4faecf3c03d06ba593257"
-  integrity sha512-8KG5RD0GVP4ydEzRn/I4BNDuxDtqVbOdm8675T49OIG/NGhaK0pjPX7ZcDlvKYbA+ulvVK3ztfcF4uBdOxuJbQ==
-  dependencies:
-    "@gar/promisify" "^1.0.1"
-    semver "^7.3.5"
-
-"@npmcli/move-file@^1.0.1":
-  version "1.1.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@npmcli%2fmove-file/-/move-file-1.1.2.tgz#1a82c3e372f7cae9253eb66d72543d6b8685c674"
-  integrity sha512-1SUf/Cg2GzGDyaf15aR9St9TWlb+XvbZXWpDx8YKs7MLzMH/BCeopv+y9vzrzgkfykCGuWOlSu3mZhj2+FQcrg==
-  dependencies:
-    mkdirp "^1.0.4"
-    rimraf "^3.0.2"
 
 "@oclif/color@^0.1.2":
   version "0.1.2"
@@ -1762,11 +1574,6 @@
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@oclif%2fscreen/-/screen-1.0.4.tgz#b740f68609dfae8aa71c3a6cab15d816407ba493"
   integrity sha512-60CHpq+eqnTxLZQ4PGHYNwUX572hgpMHGPtTWMjdTMsAvlm69lZV/4ly6O3sAYkomo4NggGcomrDpBe34rxUqw==
 
-"@opentelemetry/api@^1.0.1":
-  version "1.1.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@opentelemetry%2fapi/-/api-1.1.0.tgz#563539048255bbe1a5f4f586a4a10a1bb737f44a"
-  integrity sha512-hf+3bwuBwtXsugA2ULBc95qxrOqP2pOekLz34BJhcAKawt94vfeNyUKpYc0lZQ/3sCP6LqRa7UAdHA7i5UODzQ==
-
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@protobufjs%2faspromise/-/aspromise-1.1.2.tgz#9b8b0cc663d669a7d8f6f5d0893a14d348f30fbf"
@@ -1820,27 +1627,12 @@
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@protobufjs%2futf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
-"@protoplasm/recall@^0.2":
-  version "0.2.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@protoplasm%2frecall/-/recall-0.2.2.tgz#4d8b259efba89938220088d444011b961ae3775a"
-  integrity sha512-grQIYNd3UsFjHXL1g5Qw5MdUNAddEcD1KfqiO6WeMOQHgIgECXo7r4jfcXGIh37q17HoGQgq/G4guMGkzQ+UOA==
-
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.1"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@samverschueren%2fstream-to-observable/-/stream-to-observable-0.3.1.tgz#a21117b19ee9be70c379ec1877537ef2e1c63301"
   integrity sha512-c/qwwcHyafOQuVQJj0IlBjf5yYgBI7YPJ77k4fOJYesb41jio65eaJODRUmfYKhTOFBrIZ66kgvGPlNbjuoRdQ==
   dependencies:
     any-observable "^0.3.0"
-
-"@sentry/browser@^6.19.6":
-  version "6.19.6"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@sentry%2fbrowser/-/browser-6.19.6.tgz#75be467667fffa1f4745382fc7a695568609c634"
-  integrity sha512-V5QyY1cO1iuFCI78dOFbHV7vckbeQEPPq3a5dGSXlBQNYnd9Ec5xoxp5nRNpWQPOZ8/Ixt9IgRxdqVTkWib51g==
-  dependencies:
-    "@sentry/core" "6.19.6"
-    "@sentry/types" "6.19.6"
-    "@sentry/utils" "6.19.6"
-    tslib "^1.9.3"
 
 "@sentry/core@6.19.6":
   version "6.19.6"
@@ -2165,7 +1957,7 @@
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@types%2fminimatch/-/minimatch-3.0.5.tgz#1001cc5e6a3704b83c236027e77f2f58ea010f40"
   integrity sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==
 
-"@types/node-fetch@2.6.1", "@types/node-fetch@^2.5.10":
+"@types/node-fetch@^2.5.10":
   version "2.6.1"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@types%2fnode-fetch/-/node-fetch-2.6.1.tgz#8f127c50481db65886800ef496f20bbf15518975"
   integrity sha512-oMqjURCaxoSIsHSr1E47QHzbmzNR5rK8McHuNb11BOM9cHcIK3Avy0s/b2JlXHoQGTYS3NsvWzV1M0iK7l0wbA==
@@ -2477,33 +2269,12 @@
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@webpack-cli%2fserve/-/serve-1.6.1.tgz#0de2875ac31b46b6c5bb1ae0a7d7f0ba5678dffe"
   integrity sha512-gNGTiTrjEVQ0OcVnzsRSqTxaBSr+dmTfm+qJsCDluky8uhdLWep7Gcr62QsAKHTMxjCS/8nEITsmFAhfIx+QSw==
 
-"@wry/context@^0.6.0":
-  version "0.6.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@wry%2fcontext/-/context-0.6.1.tgz#c3c29c0ad622adb00f6a53303c4f965ee06ebeb2"
-  integrity sha512-LOmVnY1iTU2D8tv4Xf6MVMZZ+juIJ87Kt/plMijjN20NMAXGmH4u8bS1t0uT74cZ5gwpocYueV58YwyI8y+GKw==
-  dependencies:
-    tslib "^2.3.0"
-
 "@wry/equality@^0.1.2":
   version "0.1.11"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@wry%2fequality/-/equality-0.1.11.tgz#35cb156e4a96695aa81a9ecc4d03787bc17f1790"
   integrity sha512-mwEVBDUVODlsQQ5dfuLUS5/Tf7jqUKyhKYHmVi4fPB6bDMOfWvUPJmKgS1Z7Za/sOI3vzWt4+O7yCiL/70MogA==
   dependencies:
     tslib "^1.9.3"
-
-"@wry/equality@^0.5.0":
-  version "0.5.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@wry%2fequality/-/equality-0.5.2.tgz#72c8a7a7d884dff30b612f4f8464eba26c080e73"
-  integrity sha512-oVMxbUXL48EV/C0/M7gLVsoK6qRHPS85x8zECofEZOVvxGmIPLA9o5Z27cc2PoAyZz1S2VoM2A7FLAnpfGlneA==
-  dependencies:
-    tslib "^2.3.0"
-
-"@wry/trie@^0.3.0":
-  version "0.3.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@wry%2ftrie/-/trie-0.3.1.tgz#2279b790f15032f8bcea7fc944d27988e5b3b139"
-  integrity sha512-WwB53ikYudh9pIorgxrkHKrQZcCqNM/Q/bDzZBffEaGUKGuHrRb3zZUT9Sh2qw9yogC7SsdRmQ1ER0pqvd3bfw==
-  dependencies:
-    tslib "^2.3.0"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -2568,29 +2339,12 @@ acorn@^8.2.4, acorn@^8.4.1, acorn@^8.5.0:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/acorn/-/acorn-8.7.0.tgz#90951fde0f8f09df93549481e5fc141445b791cf"
   integrity sha512-V/LGr1APy+PXIwKebEWrkZPwoeoF+w1jiOBUmuxuiUIaOHtob8Qc9BTrYo7VuI5fR8tqsy+buA2WFooR5olqvQ==
 
-agent-base@6, agent-base@^6.0.2:
+agent-base@6:
   version "6.0.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/agent-base/-/agent-base-6.0.2.tgz#49fff58577cfee3f37176feab4c22e00f86d7f77"
   integrity sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==
   dependencies:
     debug "4"
-
-agentkeepalive@^4.1.3:
-  version "4.2.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/agentkeepalive/-/agentkeepalive-4.2.1.tgz#a7975cbb9f83b367f06c90cc51ff28fe7d499717"
-  integrity sha512-Zn4cw2NEqd+9fiSVWMscnjyQ1a8Yfoc5oBajLeo5w+YBHgDUcEBY2hS4YpTz6iN5f/2zQiktcuM6tS8x1p9dpA==
-  dependencies:
-    debug "^4.1.0"
-    depd "^1.1.2"
-    humanize-ms "^1.2.1"
-
-aggregate-error@^3.0.0:
-  version "3.1.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/aggregate-error/-/aggregate-error-3.1.0.tgz#92670ff50f5359bdb7a3e0d40d0ec30c5737687a"
-  integrity sha512-4I7Td01quW/RpocfNayFdFVk1qSuoh0E7JrbRJ16nH01HhKFQ88INq9Sd+nd72zqRySlr9BmDA8xlEJ6vJMrYA==
-  dependencies:
-    clean-stack "^2.0.0"
-    indent-string "^4.0.0"
 
 ajv-keywords@^3.5.2:
   version "3.5.2"
@@ -2777,25 +2531,6 @@ apollo-codegen-typescript@^0.40.8:
     common-tags "^1.5.1"
     inflected "^2.0.3"
 
-apollo-codegen@^0.19.1:
-  version "0.19.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/apollo-codegen/-/apollo-codegen-0.19.1.tgz#30444de019f453c0d6ec167072b8e11b52d7f92e"
-  integrity sha512-jlxz/b5iinRWfh48hXdmMtrjTPn/rDok0Z3b7icvkiaD6I30w4sq9B+JDkFbLnkldzsFLV2BZtBDa/dkZhx8Ng==
-  dependencies:
-    "@babel/generator" "7.0.0-beta.38"
-    "@babel/types" "7.0.0-beta.38"
-    change-case "^3.0.1"
-    common-tags "^1.5.1"
-    core-js "^2.5.3"
-    glob "^7.1.2"
-    graphql "^0.13.1"
-    graphql-config "^1.1.1"
-    inflected "^2.0.3"
-    node-fetch "^1.7.3"
-    rimraf "^2.6.2"
-    source-map-support "^0.5.0"
-    yargs "^10.0.3"
-
 apollo-datasource-rest@^0.10.0:
   version "0.10.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/apollo-datasource-rest/-/apollo-datasource-rest-0.10.0.tgz#832c035ba7dfd8e1d944de49972c1d4d58e15a31"
@@ -2822,14 +2557,6 @@ apollo-datasource@^0.9.0:
   dependencies:
     apollo-server-caching "^0.7.0"
     apollo-server-env "^3.1.0"
-
-apollo-datasource@^3.3.1:
-  version "3.3.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/apollo-datasource/-/apollo-datasource-3.3.1.tgz#a1168dd68371930de3ed4245ad12fa8600efe2cc"
-  integrity sha512-Z3a8rEUXVPIZ1p8xrFL8bcNhWmhOmovgDArvwIwmJOBnh093ZpRfO+ESJEDAN4KswmyzCLDAwjsW4zQOONdRUw==
-  dependencies:
-    apollo-server-caching "^3.3.0"
-    apollo-server-env "^4.2.1"
 
 apollo-env@^0.10.1:
   version "0.10.1"
@@ -2907,7 +2634,7 @@ apollo-link-http-common@^0.2.16:
     ts-invariant "^0.4.0"
     tslib "^1.9.3"
 
-apollo-link-http@^1.5.17, apollo-link-http@^1.5.5:
+apollo-link-http@^1.5.5:
   version "1.5.17"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/apollo-link-http/-/apollo-link-http-1.5.17.tgz#499e9f1711bf694497f02c51af12d82de5d8d8ba"
   integrity sha512-uWcqAotbwDEU/9+Dm9e1/clO7hTB2kQ/94JYcGouBVLjoKmTeJTUPQKcJGpPwUjZcSqgYicbFqQSoJIW0yrFvg==
@@ -2916,23 +2643,7 @@ apollo-link-http@^1.5.17, apollo-link-http@^1.5.5:
     apollo-link-http-common "^0.2.16"
     tslib "^1.9.3"
 
-apollo-link-persisted-queries@^0.2.2:
-  version "0.2.5"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/apollo-link-persisted-queries/-/apollo-link-persisted-queries-0.2.5.tgz#76deabf68dac218d83f2fa23eebc3b25772fd914"
-  integrity sha512-PYWsMFcRGT9NZ6e6EK5rlhNDtcK6FR76JDy1RIngEfR6RdM5a2Z0IhZdn9RTTNB3V/+s7iWviQmoCfQrTVXu0A==
-  dependencies:
-    apollo-link "^1.2.1"
-    hash.js "^1.1.7"
-
-apollo-link-sentry@^3.0.2:
-  version "3.1.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/apollo-link-sentry/-/apollo-link-sentry-3.1.1.tgz#51cff7adb3e2813782af7e9e0211622176600db1"
-  integrity sha512-rOZ4rEXi4W6SSmAlaDkjzMR9xAypCKMbs35JlRRwjprWb1NAvFD1lYxIeAmMOuh6yB00a1Ew3eSdxLdDevsy3Q==
-  dependencies:
-    deepmerge "^4.2.2"
-    dot-prop "^6.0.0"
-
-apollo-link@^1.2.1, apollo-link@^1.2.14, apollo-link@^1.2.3:
+apollo-link@^1.2.14, apollo-link@^1.2.3:
   version "1.2.14"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/apollo-link/-/apollo-link-1.2.14.tgz#3feda4b47f9ebba7f4160bef8b977ba725b684d9"
   integrity sha512-p67CMEFP7kOG1JZ0ZkYZwRDa369w5PIjtMjvrQd/HnIV8FRsHRqLqK+oAZQnFa1DDdZtOtHTi+aMIW6EatC2jg==
@@ -2949,13 +2660,6 @@ apollo-reporting-protobuf@^0.8.0:
   dependencies:
     "@apollo/protobufjs" "1.2.2"
 
-"apollo-reporting-protobuf@^0.8.0 || ^3.0.0", apollo-reporting-protobuf@^3.3.1:
-  version "3.3.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/apollo-reporting-protobuf/-/apollo-reporting-protobuf-3.3.1.tgz#8c8761f9ac4375fd8490262d6144057cec6ce0b3"
-  integrity sha512-tyvj3Vj71TCh6c8PtdHOLgHHBSJ05DF/A/Po3q8yfHTBkOPcOJZE/GGN/PT/pwKg7HHxKcAeHDw7+xciVvGx0w==
-  dependencies:
-    "@apollo/protobufjs" "1.2.2"
-
 apollo-server-caching@^0.5.3:
   version "0.5.3"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/apollo-server-caching/-/apollo-server-caching-0.5.3.tgz#cf42a77ad09a46290a246810075eaa029b5305e1"
@@ -2969,39 +2673,6 @@ apollo-server-caching@^0.7.0:
   integrity sha512-MsVCuf/2FxuTFVhGLK13B+TZH9tBd2qkyoXKKILIiGcZ5CDUEBO14vIV63aNkMkS1xxvK2U4wBcuuNj/VH2Mkw==
   dependencies:
     lru-cache "^6.0.0"
-
-"apollo-server-caching@^0.7.0 || ^3.0.0", apollo-server-caching@^3.3.0:
-  version "3.3.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/apollo-server-caching/-/apollo-server-caching-3.3.0.tgz#f501cbeb820a4201d98c2b768c085f22848d9dc5"
-  integrity sha512-Wgcb0ArjZ5DjQ7ID+tvxUcZ7Yxdbk5l1MxZL8D8gkyjooOkhPNzjRVQ7ubPoXqO54PrOMOTm1ejVhsF+AfIirQ==
-  dependencies:
-    lru-cache "^6.0.0"
-
-"apollo-server-core@^2.23.0 || ^3.0.0":
-  version "3.6.7"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/apollo-server-core/-/apollo-server-core-3.6.7.tgz#6a52ce48fe1a79da9691c3fff4ea1031e9225602"
-  integrity sha512-OnZ9vu7LrYy2rvEu+nbgqucw6VyTSIPAEjK87c4rkzlVOxpwtGUaQ4FMWD9zBIj7yLq9q22b638E8LdYoaTAjQ==
-  dependencies:
-    "@apollographql/apollo-tools" "^0.5.3"
-    "@apollographql/graphql-playground-html" "1.6.29"
-    "@graphql-tools/mock" "^8.1.2"
-    "@graphql-tools/schema" "^8.0.0"
-    "@josephg/resolvable" "^1.0.0"
-    apollo-datasource "^3.3.1"
-    apollo-reporting-protobuf "^3.3.1"
-    apollo-server-caching "^3.3.0"
-    apollo-server-env "^4.2.1"
-    apollo-server-errors "^3.3.1"
-    apollo-server-plugin-base "^3.5.2"
-    apollo-server-types "^3.5.2"
-    async-retry "^1.2.1"
-    fast-json-stable-stringify "^2.1.0"
-    graphql-tag "^2.11.0"
-    lodash.sortby "^4.7.0"
-    loglevel "^1.6.8"
-    lru-cache "^6.0.0"
-    sha.js "^2.4.11"
-    uuid "^8.0.0"
 
 apollo-server-core@^2.25.3:
   version "2.25.3"
@@ -3042,22 +2713,10 @@ apollo-server-env@^3.0.0, apollo-server-env@^3.1.0:
     node-fetch "^2.6.1"
     util.promisify "^1.0.0"
 
-"apollo-server-env@^3.0.0 || ^4.0.0", apollo-server-env@^4.2.1:
-  version "4.2.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/apollo-server-env/-/apollo-server-env-4.2.1.tgz#ea5b1944accdbdba311f179e4dfaeca482c20185"
-  integrity sha512-vm/7c7ld+zFMxibzqZ7SSa5tBENc4B0uye9LTfjJwGoQFY5xsUPH5FpO5j0bMUDZ8YYNbrF9SNtzc5Cngcr90g==
-  dependencies:
-    node-fetch "^2.6.7"
-
 apollo-server-errors@^2.0.2, apollo-server-errors@^2.4.2, apollo-server-errors@^2.5.0:
   version "2.5.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/apollo-server-errors/-/apollo-server-errors-2.5.0.tgz#5d1024117c7496a2979e3e34908b5685fe112b68"
   integrity sha512-lO5oTjgiC3vlVg2RKr3RiXIIQ5pGXBFxYGGUkKDhTud3jMIhs+gel8L8zsEjKaKxkjHhCQAA/bcEfYiKkGQIvA==
-
-"apollo-server-errors@^2.5.0 || ^3.0.0", apollo-server-errors@^3.3.1:
-  version "3.3.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/apollo-server-errors/-/apollo-server-errors-3.3.1.tgz#ba5c00cdaa33d4cbd09779f8cb6f47475d1cd655"
-  integrity sha512-xnZJ5QWs6FixHICXHxUfm+ZWqqxrNuPlQ+kj5m6RtEgIpekOPssH/SD9gf2B4HuWV0QozorrygwZnux8POvyPA==
 
 apollo-server-express@^2.25.3:
   version "2.25.3"
@@ -3089,13 +2748,6 @@ apollo-server-plugin-base@^0.13.0:
   dependencies:
     apollo-server-types "^0.9.0"
 
-apollo-server-plugin-base@^3.5.2:
-  version "3.5.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/apollo-server-plugin-base/-/apollo-server-plugin-base-3.5.2.tgz#18a08353f5ea207a07f2c1e66dd7ef2335ce8c84"
-  integrity sha512-SwIf1waDmNDb0kmn57QR++InwK6Iv/X2slpm/aFIoqFBe91r6uJfakJvQZuh8dLEgk68gxqFsT8zHRpxBclE+g==
-  dependencies:
-    apollo-server-types "^3.5.2"
-
 apollo-server-types@^0.9.0:
   version "0.9.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/apollo-server-types/-/apollo-server-types-0.9.0.tgz#ccf550b33b07c48c72f104fbe2876232b404848b"
@@ -3104,15 +2756,6 @@ apollo-server-types@^0.9.0:
     apollo-reporting-protobuf "^0.8.0"
     apollo-server-caching "^0.7.0"
     apollo-server-env "^3.1.0"
-
-"apollo-server-types@^0.9.0 || ^3.0.0", apollo-server-types@^3.0.2, apollo-server-types@^3.5.2:
-  version "3.5.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/apollo-server-types/-/apollo-server-types-3.5.2.tgz#903d499a70b9010764cbab4d704ddb8c086aa06f"
-  integrity sha512-vhcbIWsBkoNibABOym4AAPBoNDjokhjUQokKYdwZMeqrb850PMQdNJFrGyXT5onP408Ghv4O8PfgBuPQmeJhVQ==
-  dependencies:
-    apollo-reporting-protobuf "^3.3.1"
-    apollo-server-caching "^3.3.0"
-    apollo-server-env "^4.2.1"
 
 apollo-server@^2.21.2:
   version "2.25.3"
@@ -3261,7 +2904,7 @@ astral-regex@^2.0.0:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/astral-regex/-/astral-regex-2.0.0.tgz#483143c567aeed4785759c0865786dc77d7d2e31"
   integrity sha512-Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ==
 
-async-retry@^1.2.1, async-retry@^1.3.3:
+async-retry@^1.2.1:
   version "1.3.3"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/async-retry/-/async-retry-1.3.3.tgz#0e7f36c04d8478e7a58bdbed80cedf977785f280"
   integrity sha512-wfr/jstw9xNi/0teMHrRW7dsz3Lt5ARhYNZ2ewpadnhaIp5mbALhOAP+EAdsC7t4Z6wqsDVv9+W6gm1Dk9mEyw==
@@ -3282,11 +2925,6 @@ atob@^2.1.2:
   version "2.1.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
-
-available-typed-arrays@^1.0.5:
-  version "1.0.5"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz#92f95616501069d07d10edb2fc37d3e1c65123b7"
-  integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
 await-to-js@^2.0.1:
   version "2.1.1"
@@ -3661,30 +3299,6 @@ bytes@3.1.2:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/bytes/-/bytes-3.1.2.tgz#8b0beeb98605adf1b128fa4386403c009e0221a5"
   integrity sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==
 
-cacache@^15.0.5:
-  version "15.3.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/cacache/-/cacache-15.3.0.tgz#dc85380fb2f556fe3dda4c719bfa0ec875a7f1eb"
-  integrity sha512-VVdYzXEn+cnbXpFgWs5hTT7OScegHVmLhJIR8Ufqk3iFD6A6j5iSX1KuBTfNEv4tdJWE2PzA6IVFtcLC7fN9wQ==
-  dependencies:
-    "@npmcli/fs" "^1.0.0"
-    "@npmcli/move-file" "^1.0.1"
-    chownr "^2.0.0"
-    fs-minipass "^2.0.0"
-    glob "^7.1.4"
-    infer-owner "^1.0.4"
-    lru-cache "^6.0.0"
-    minipass "^3.1.1"
-    minipass-collect "^1.0.2"
-    minipass-flush "^1.0.5"
-    minipass-pipeline "^1.2.2"
-    mkdirp "^1.0.3"
-    p-map "^4.0.0"
-    promise-inflight "^1.0.1"
-    rimraf "^3.0.2"
-    ssri "^8.0.1"
-    tar "^6.0.2"
-    unique-filename "^1.1.1"
-
 cache-base@^1.0.1:
   version "1.0.1"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/cache-base/-/cache-base-1.0.1.tgz#0a7f46416831c8b662ee36fe4e7c59d76f666ab2"
@@ -3745,14 +3359,6 @@ callsites@^3.0.0:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
-camel-case@^3.0.0:
-  version "3.0.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/camel-case/-/camel-case-3.0.0.tgz#ca3c3688a4e9cf3a4cda777dc4dcbc713249cf73"
-  integrity sha1-yjw2iKTpzzpM2nd9xNy8cTJJz3M=
-  dependencies:
-    no-case "^2.2.0"
-    upper-case "^1.1.1"
-
 camel-case@^4.1.2:
   version "4.1.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/camel-case/-/camel-case-4.1.2.tgz#9728072a954f805228225a6deea6b38461e1bd5a"
@@ -3760,11 +3366,6 @@ camel-case@^4.1.2:
   dependencies:
     pascal-case "^3.1.2"
     tslib "^2.0.3"
-
-camelcase@^4.1.0:
-  version "4.1.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
-  integrity sha1-1UVjW+HjPFQmScaRc+Xeas+uNN0=
 
 camelcase@^5.3.1:
   version "5.3.1"
@@ -3840,30 +3441,6 @@ chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.2:
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
-
-change-case@^3.0.1:
-  version "3.1.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/change-case/-/change-case-3.1.0.tgz#0e611b7edc9952df2e8513b27b42de72647dd17e"
-  integrity sha512-2AZp7uJZbYEzRPsFoa+ijKdvp9zsrnnt6+yFokfwEpeJm0xuJDVoxiRCAaTzyJND8GJkofo2IcKWaUZ/OECVzw==
-  dependencies:
-    camel-case "^3.0.0"
-    constant-case "^2.0.0"
-    dot-case "^2.1.0"
-    header-case "^1.0.0"
-    is-lower-case "^1.1.0"
-    is-upper-case "^1.1.0"
-    lower-case "^1.1.1"
-    lower-case-first "^1.0.0"
-    no-case "^2.3.2"
-    param-case "^2.1.0"
-    pascal-case "^2.0.0"
-    path-case "^2.1.0"
-    sentence-case "^2.1.0"
-    snake-case "^2.1.0"
-    swap-case "^1.1.0"
-    title-case "^2.1.0"
-    upper-case "^1.1.1"
-    upper-case-first "^1.1.0"
 
 change-case@^4.0.0:
   version "4.1.2"
@@ -3950,11 +3527,6 @@ class-validator@^0.13.1:
   dependencies:
     libphonenumber-js "^1.9.43"
     validator "^13.7.0"
-
-clean-stack@^2.0.0:
-  version "2.2.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/clean-stack/-/clean-stack-2.2.0.tgz#ee8472dbb129e727b31e8a10a427dee9dfe4008b"
-  integrity sha512-4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==
 
 clean-stack@^3.0.0:
   version "3.0.1"
@@ -4065,15 +3637,6 @@ cli-ux@5.6.7, cli-ux@^5.2.1, cli-ux@^5.6.7:
     supports-color "^8.1.0"
     supports-hyperlinks "^2.1.0"
     tslib "^2.0.0"
-
-cliui@^4.0.0:
-  version "4.1.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/cliui/-/cliui-4.1.0.tgz#348422dbe82d800b3022eef4f6ac10bf2e4d1b49"
-  integrity sha512-4FG+RSG9DL7uEwRUZXZn3SS34DiDPfzP0VOiEwtUWlE+AR2EIg+hSyvrIgUUfhdgR/UkAeW2QHgeP+hWrXs7jQ==
-  dependencies:
-    string-width "^2.1.1"
-    strip-ansi "^4.0.0"
-    wrap-ansi "^2.0.0"
 
 cliui@^7.0.2:
   version "7.0.4"
@@ -4218,14 +3781,6 @@ console.table@^0.10.0:
   dependencies:
     easy-table "1.1.0"
 
-constant-case@^2.0.0:
-  version "2.0.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/constant-case/-/constant-case-2.0.0.tgz#4175764d389d3fa9c8ecd29186ed6005243b6a46"
-  integrity sha1-QXV2TTidP6nI7NKRhu1gBSQ7akY=
-  dependencies:
-    snake-case "^2.1.0"
-    upper-case "^1.1.1"
-
 constant-case@^3.0.4:
   version "3.0.4"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/constant-case/-/constant-case-3.0.4.tgz#3b84a9aeaf4cf31ec45e6bf5de91bdfb0589faf1"
@@ -4282,11 +3837,6 @@ core-js-pure@^3.10.2:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/core-js-pure/-/core-js-pure-3.22.0.tgz#0eaa54b6d1f4ebb4d19976bb4916dfad149a3747"
   integrity sha512-ylOC9nVy0ak1N+fPIZj00umoZHgUVqmucklP5RT5N+vJof38klKn8Ze6KGyvchdClvEBr6LcQqJpI216LUMqYA==
 
-core-js@^2.5.3:
-  version "2.6.12"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
-  integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
-
 core-js@^3.0.1, core-js@^3.20.2, core-js@^3.6.5:
   version "3.22.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/core-js/-/core-js-3.22.0.tgz#b52007870c5e091517352e833b77f0b2d2b259f3"
@@ -4309,23 +3859,6 @@ cosmiconfig@^5.0.6:
     is-directory "^0.3.1"
     js-yaml "^3.13.1"
     parse-json "^4.0.0"
-
-cross-fetch@2.2.2:
-  version "2.2.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/cross-fetch/-/cross-fetch-2.2.2.tgz#a47ff4f7fc712daba8f6a695a11c948440d45723"
-  integrity sha1-pH/09/xxLauo9qaVoRyUhEDUVyM=
-  dependencies:
-    node-fetch "2.1.2"
-    whatwg-fetch "2.0.4"
-
-cross-spawn@^5.0.1:
-  version "5.1.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/cross-spawn/-/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
-  integrity sha1-6L0O/uWPz/b4+UUQoKVUu/ojVEk=
-  dependencies:
-    lru-cache "^4.0.1"
-    shebang-command "^1.2.0"
-    which "^1.2.9"
 
 cross-spawn@^6.0.0, cross-spawn@^6.0.5:
   version "6.0.5"
@@ -4409,11 +3942,6 @@ debug@^3.2.7:
   dependencies:
     ms "^2.1.1"
 
-decamelize@^1.1.1:
-  version "1.2.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
-  integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
-
 decimal.js@^10.2.1:
   version "10.3.1"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/decimal.js/-/decimal.js-10.3.1.tgz#d8c3a444a9c6774ba60ca6ad7261c3a94fd5e783"
@@ -4435,27 +3963,6 @@ dedent@^0.7.0:
   version "0.7.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/dedent/-/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
   integrity sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=
-
-deep-equal@^2.0.5:
-  version "2.0.5"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/deep-equal/-/deep-equal-2.0.5.tgz#55cd2fe326d83f9cbf7261ef0e060b3f724c5cb9"
-  integrity sha512-nPiRgmbAtm1a3JsnLCf6/SLfXcjyN5v8L1TXzdCmHrXJ4hx+gW/w1YCcn7z8gJtSiDArZCgYtbao3QqLm/N1Sw==
-  dependencies:
-    call-bind "^1.0.0"
-    es-get-iterator "^1.1.1"
-    get-intrinsic "^1.0.1"
-    is-arguments "^1.0.4"
-    is-date-object "^1.0.2"
-    is-regex "^1.1.1"
-    isarray "^2.0.5"
-    object-is "^1.1.4"
-    object-keys "^1.1.1"
-    object.assign "^4.1.2"
-    regexp.prototype.flags "^1.3.0"
-    side-channel "^1.0.3"
-    which-boxed-primitive "^1.0.1"
-    which-collection "^1.0.1"
-    which-typed-array "^1.1.2"
 
 deep-extend@^0.6.0:
   version "0.6.0"
@@ -4524,7 +4031,7 @@ depd@2.0.0:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/depd/-/depd-2.0.0.tgz#b696163cc757560d09cf22cc8fad1571b79e76df"
   integrity sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==
 
-depd@^1.1.2, depd@~1.1.2:
+depd@~1.1.2:
   version "1.1.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
@@ -4590,13 +4097,6 @@ domexception@^2.0.1:
   dependencies:
     webidl-conversions "^5.0.0"
 
-dot-case@^2.1.0:
-  version "2.1.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/dot-case/-/dot-case-2.1.1.tgz#34dcf37f50a8e93c2b3bca8bb7fb9155c7da3bee"
-  integrity sha1-NNzzf1Co6TwrO8qLt/uRVcfaO+4=
-  dependencies:
-    no-case "^2.2.0"
-
 dot-case@^3.0.4:
   version "3.0.4"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/dot-case/-/dot-case-3.0.4.tgz#9b2b670d00a431667a8a75ba29cd1b98809ce751"
@@ -4609,13 +4109,6 @@ dot-prop@^5.2.0:
   version "5.3.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/dot-prop/-/dot-prop-5.3.0.tgz#90ccce708cd9cd82cc4dc8c3ddd9abdd55b20e88"
   integrity sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==
-  dependencies:
-    is-obj "^2.0.0"
-
-dot-prop@^6.0.0:
-  version "6.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/dot-prop/-/dot-prop-6.0.1.tgz#fc26b3cf142b9e59b74dbd39ed66ce620c681083"
-  integrity sha512-tE7ztYzXHIeyvc7N+hR3oi7FIbf/NIjVP9hmAt3yMXzrQ072/fpjGLx2GxNxGxUl5V73MEqYzioOMoVhGMJ5cA==
   dependencies:
     is-obj "^2.0.0"
 
@@ -4678,13 +4171,6 @@ encodeurl@~1.0.2:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
   integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
 
-encoding@^0.1.11, encoding@^0.1.12:
-  version "0.1.13"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/encoding/-/encoding-0.1.13.tgz#56574afdd791f54a8e9b2785c0582a2d26210fa9"
-  integrity sha512-ETBauow1T35Y/WZMkio9jiM0Z5xjHHmJ4XmjZOq1l/dXz3lr2sRn87nJy20RupqSh1F2m3HHPSp8ShIPQJrJ3A==
-  dependencies:
-    iconv-lite "^0.6.2"
-
 end-of-stream@^1.1.0:
   version "1.4.4"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/end-of-stream/-/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
@@ -4714,11 +4200,6 @@ envinfo@^7.7.3:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/envinfo/-/envinfo-7.8.1.tgz#06377e3e5f4d379fea7ac592d5ad8927e0c4d475"
   integrity sha512-/o+BXHmB7ocbHEAs6F2EnG0ogybVVUdkRunTT2glZU9XAaGmhqskrvKwqXuDfNjEO0LZKWdejEEpnq8aM0tOaw==
 
-err-code@^2.0.2:
-  version "2.0.3"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/err-code/-/err-code-2.0.3.tgz#23c2f3b756ffdfc608d30e27c9a941024807e7f9"
-  integrity sha512-2bmlRpNKBxT/CRmPOlyISQpNj+qSeYvcym/uT0Jx2bMOlKLtSy1ZmLuVxSEKKyor/N5yhvp/ZiG1oE3DEYMSFA==
-
 error-ex@^1.3.1:
   version "1.3.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/error-ex/-/error-ex-1.3.2.tgz#b4ac40648107fdcdcfae242f428bea8a14d4f1bf"
@@ -4726,7 +4207,7 @@ error-ex@^1.3.1:
   dependencies:
     is-arrayish "^0.2.1"
 
-es-abstract@^1.18.5, es-abstract@^1.19.1:
+es-abstract@^1.19.1:
   version "1.19.5"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/es-abstract/-/es-abstract-1.19.5.tgz#a2cb01eb87f724e815b278b0dd0d00f36ca9a7f1"
   integrity sha512-Aa2G2+Rd3b6kxEUKTF4TaW67czBLyAv3z7VOhYRU50YBx+bbsYZ9xQP4lMNazePuFlybXI0V4MruPos7qUo5fA==
@@ -4751,20 +4232,6 @@ es-abstract@^1.18.5, es-abstract@^1.19.1:
     string.prototype.trimend "^1.0.4"
     string.prototype.trimstart "^1.0.4"
     unbox-primitive "^1.0.1"
-
-es-get-iterator@^1.1.1:
-  version "1.1.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/es-get-iterator/-/es-get-iterator-1.1.2.tgz#9234c54aba713486d7ebde0220864af5e2b283f7"
-  integrity sha512-+DTO8GYwbMCwbywjimwZMHp8AuYXOS2JZFWoi2AlPOS3ebnII9w/NLpNZtA7A0YLaVDw+O7KFCeoIV7OPvM7hQ==
-  dependencies:
-    call-bind "^1.0.2"
-    get-intrinsic "^1.1.0"
-    has-symbols "^1.0.1"
-    is-arguments "^1.1.0"
-    is-map "^2.0.2"
-    is-set "^2.0.2"
-    is-string "^1.0.5"
-    isarray "^2.0.5"
 
 es-module-lexer@^0.9.0:
   version "0.9.3"
@@ -4898,19 +4365,6 @@ exec-sh@^0.3.2:
   version "0.3.6"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/exec-sh/-/exec-sh-0.3.6.tgz#ff264f9e325519a60cb5e273692943483cca63bc"
   integrity sha512-nQn+hI3yp+oD0huYhKwvYI32+JFeq+XkNcD1GAo3Y/MjxsfVGmrrzrnzjWiNY6f+pUCP440fThsFh5gZrRAU/w==
-
-execa@^0.7.0:
-  version "0.7.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/execa/-/execa-0.7.0.tgz#944becd34cc41ee32a63a9faf27ad5a65fc59777"
-  integrity sha1-lEvs00zEHuMqY6n68nrVpl/Fl3c=
-  dependencies:
-    cross-spawn "^5.0.1"
-    get-stream "^3.0.0"
-    is-stream "^1.1.0"
-    npm-run-path "^2.0.0"
-    p-finally "^1.0.0"
-    signal-exit "^3.0.0"
-    strip-eof "^1.0.0"
 
 execa@^1.0.0:
   version "1.0.0"
@@ -5059,7 +4513,7 @@ fast-glob@^3.2.9:
     merge2 "^1.3.0"
     micromatch "^4.0.4"
 
-fast-json-stable-stringify@^2.0.0, fast-json-stable-stringify@^2.1.0:
+fast-json-stable-stringify@^2.0.0:
   version "2.1.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
   integrity sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==
@@ -5176,13 +4630,6 @@ find-cache-dir@^3.3.1:
     make-dir "^3.0.2"
     pkg-dir "^4.1.0"
 
-find-up@^2.1.0:
-  version "2.1.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/find-up/-/find-up-2.1.0.tgz#45d1b7e506c717ddd482775a2b77920a3c0c57a7"
-  integrity sha1-RdG35QbHF93UgndaK3eSCjwMV6c=
-  dependencies:
-    locate-path "^2.0.0"
-
 find-up@^3.0.0:
   version "3.0.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/find-up/-/find-up-3.0.0.tgz#49169f1d7993430646da61ecc5ae355c21c97b73"
@@ -5214,11 +4661,6 @@ for-in@^1.0.2:
   version "1.0.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
   integrity sha1-gQaNKVqBQuwKxybG4iAMMPttXoA=
-
-foreach@^2.0.5:
-  version "2.0.5"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/foreach/-/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"
-  integrity sha1-C+4AUBiusmDQo6865ljdATbsG5k=
 
 form-data@^3.0.0:
   version "3.0.1"
@@ -5287,11 +4729,6 @@ fs.realpath@^1.0.0:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
-fs@^0.0.1-security:
-  version "0.0.1-security"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/fs/-/fs-0.0.1-security.tgz#8a7bd37186b6dddf3813f23858b57ecaaf5e41d4"
-  integrity sha1-invTcYa23d84E/I4WLV+yq9eQdQ=
-
 fsevents@^2.1.2, fsevents@^2.3.2, fsevents@~2.3.2:
   version "2.3.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
@@ -5306,11 +4743,6 @@ functional-red-black-tree@^1.0.1:
   version "1.0.1"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
-
-functions-have-names@^1.2.2:
-  version "1.2.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/functions-have-names/-/functions-have-names-1.2.2.tgz#98d93991c39da9361f8e50b337c4f6e41f120e21"
-  integrity sha512-bLgc3asbWdwPbx2mNk2S49kmJCuQeu0nfmaOgbs8WIyzzkw3r4htszdIi9Q9EMezDPTYuJx2wvjZ/EwgAthpnA==
 
 gaxios@^4.0.0:
   version "4.3.3"
@@ -5343,17 +4775,12 @@ gensync@^1.0.0-beta.2:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/gensync/-/gensync-1.0.0-beta.2.tgz#32a6ee76c3d7f52d46b2b1ae5d93fea8580a25e0"
   integrity sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==
 
-get-caller-file@^1.0.1:
-  version "1.0.3"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/get-caller-file/-/get-caller-file-1.0.3.tgz#f978fa4c90d1dfe7ff2d6beda2a515e713bdcf4a"
-  integrity sha512-3t6rVToeoZfYSGd8YoLFR2DJkiQrIiUrGcjvFX2mDw3bn6k2OtwHN0TNCLbBO+w8qTvimhDkv+LSscbJY1vE6w==
-
 get-caller-file@^2.0.5:
   version "2.0.5"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
   integrity sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==
 
-get-intrinsic@^1.0.1, get-intrinsic@^1.0.2, get-intrinsic@^1.1.0, get-intrinsic@^1.1.1:
+get-intrinsic@^1.0.2, get-intrinsic@^1.1.0, get-intrinsic@^1.1.1:
   version "1.1.1"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/get-intrinsic/-/get-intrinsic-1.1.1.tgz#15f59f376f855c446963948f0d24cd3637b4abc6"
   integrity sha512-kWZrnVM42QCiEA2Ig1bG8zjoIMOgxWwYCEeNdwY6Tv/cOSeGpcoX4pXHfKUxNKVoArnrEr2e9srnAxxGIraS9Q==
@@ -5366,11 +4793,6 @@ get-package-type@^0.1.0:
   version "0.1.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/get-package-type/-/get-package-type-0.1.0.tgz#8de2d803cff44df3bc6c456e6668b36c3926e11a"
   integrity sha512-pjzuKtY64GYfWizNAJ0fr9VqttZkNiK2iS430LtIHzjBEr6bX8Am2zm4sW4Ro5wjWW5cAlRL1qAMTcXbjNAO2Q==
-
-get-stream@^3.0.0:
-  version "3.0.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/get-stream/-/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
-  integrity sha1-jpQ9E1jcN1VQVOy+LtsFqhdO3hQ=
 
 get-stream@^4.0.0, get-stream@^4.1.0:
   version "4.1.0"
@@ -5594,18 +5016,6 @@ graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0,
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
 
-graphql-config@^1.1.1:
-  version "1.2.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/graphql-config/-/graphql-config-1.2.1.tgz#97b4403707db408feb335fbc159651f2a36cb558"
-  integrity sha512-BOtbEOn/fD13jT0peCy3Fzp1DSTsA/1AcZp266AQ5Sk3wFndKCEa/H7donbu5UriOw1V/N1WDirYPnr7rd8E7Q==
-  dependencies:
-    graphql "^0.12.3"
-    graphql-import "^0.4.0"
-    graphql-request "^1.4.0"
-    js-yaml "^3.10.0"
-    lodash "^4.17.4"
-    minimatch "^3.0.4"
-
 graphql-extensions@^0.15.0:
   version "0.15.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/graphql-extensions/-/graphql-extensions-0.15.0.tgz#3f291f9274876b0c289fa4061909a12678bd9817"
@@ -5615,26 +5025,12 @@ graphql-extensions@^0.15.0:
     apollo-server-env "^3.1.0"
     apollo-server-types "^0.9.0"
 
-graphql-import@^0.4.0:
-  version "0.4.5"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/graphql-import/-/graphql-import-0.4.5.tgz#e2f18c28d335733f46df8e0733d8deb1c6e2a645"
-  integrity sha512-G/+I08Qp6/QGTb9qapknCm3yPHV0ZL7wbaalWFpxsfR8ZhZoTBe//LsbsCKlbALQpcMegchpJhpTSKiJjhaVqQ==
-  dependencies:
-    lodash "^4.17.4"
-
 graphql-query-complexity@^0.7.0:
   version "0.7.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/graphql-query-complexity/-/graphql-query-complexity-0.7.2.tgz#7fc6bb20930ab1b666ecf3bbfb24b65b6f08ecc4"
   integrity sha512-+VgmrfxGEjHI3zuojWOR8bsz7Ycz/BZjNjxnlUieTz5DsB92WoIrYCSZdWG7UWZ3rfcA1Gb2Nf+wB80GsaZWuQ==
   dependencies:
     lodash.get "^4.4.2"
-
-graphql-request@^1.4.0:
-  version "1.8.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/graphql-request/-/graphql-request-1.8.2.tgz#398d10ae15c585676741bde3fc01d5ca948f8fbe"
-  integrity sha512-dDX2M+VMsxXFCmUX0Vo0TopIZIX4ggzOtiCsThgtrKR4niiaagsGTDIHj3fsOMFETpa064vzovI+4YV4QnMbcg==
-  dependencies:
-    cross-fetch "2.2.2"
 
 graphql-subscriptions@^1.0.0, graphql-subscriptions@^1.1.0:
   version "1.2.1"
@@ -5650,7 +5046,7 @@ graphql-tag@2.12.4:
   dependencies:
     tslib "^2.1.0"
 
-graphql-tag@^2.10.1, graphql-tag@^2.11.0, graphql-tag@^2.12.3, graphql-tag@^2.12.5:
+graphql-tag@^2.10.1, graphql-tag@^2.11.0, graphql-tag@^2.12.5:
   version "2.12.6"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/graphql-tag/-/graphql-tag-2.12.6.tgz#d441a569c1d2537ef10ca3d1633b48725329b5f1"
   integrity sha512-FdSNcu2QQcWnM2VNvSCCDCVS5PpPqpzgFT8+GXzqJuoDd0CBncxCY278u4mhRO7tMgo2JjgJA5aZ+nWSQ/Z+xg==
@@ -5672,20 +5068,6 @@ graphql-tools@^4.0.8:
   version "15.8.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/graphql/-/graphql-15.8.0.tgz#33410e96b012fa3bdb1091cc99a94769db212b38"
   integrity sha512-5gghUc24tP9HRznNpV2+FIoq3xKkj5dTQqf4v0CpdPbFVwFkWoxOM+o+2OC9ZSvjEMTjfmG9QT+gcvggTwW1zw==
-
-graphql@^0.12.3:
-  version "0.12.3"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/graphql/-/graphql-0.12.3.tgz#11668458bbe28261c0dcb6e265f515ba79f6ce07"
-  integrity sha512-Hn9rdu4zacplKXNrLCvR8YFiTGnbM4Zw/UH8FDmzBDsH7ou40lSNH4tIlsxcYnz2TGNVJCpu1WxCM23yd6kzhA==
-  dependencies:
-    iterall "1.1.3"
-
-graphql@^0.13.1:
-  version "0.13.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/graphql/-/graphql-0.13.2.tgz#4c740ae3c222823e7004096f832e7b93b2108270"
-  integrity sha512-QZ5BL8ZO/B20VA8APauGBg3GyEgZ19eduvpLWoq5x7gMmWnHoy8rlQWPLmWgFvo1yNgjSEFMesmS4R6pPr7xog==
-  dependencies:
-    iterall "^1.2.1"
 
 gtoken@^5.0.4:
   version "5.3.2"
@@ -5780,22 +5162,6 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-hash.js@^1.1.7:
-  version "1.1.7"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/hash.js/-/hash.js-1.1.7.tgz#0babca538e8d4ee4a0f8988d68866537a003cf42"
-  integrity sha512-taOaskGt4z4SOANNseOviYDvjEJinIkRgmp7LbKP2YTTmVxWBl87s/uzK9r+44BclBSp2X7K1hqeNfz9JbBeXA==
-  dependencies:
-    inherits "^2.0.3"
-    minimalistic-assert "^1.0.1"
-
-header-case@^1.0.0:
-  version "1.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/header-case/-/header-case-1.0.1.tgz#9535973197c144b09613cd65d317ef19963bd02d"
-  integrity sha1-lTWXMZfBRLCWE81l0xfvGZY70C0=
-  dependencies:
-    no-case "^2.2.0"
-    upper-case "^1.1.3"
-
 header-case@^2.0.4:
   version "2.0.4"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/header-case/-/header-case-2.0.4.tgz#5a42e63b55177349cf405beb8d775acabb92c063"
@@ -5808,13 +5174,6 @@ highlight.js@^10.7.1:
   version "10.7.3"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/highlight.js/-/highlight.js-10.7.3.tgz#697272e3991356e40c3cac566a74eef681756531"
   integrity sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==
-
-hoist-non-react-statics@^3.3.2:
-  version "3.3.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
-  integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
-  dependencies:
-    react-is "^16.7.0"
 
 homedir-polyfill@^1.0.1:
   version "1.0.3"
@@ -5835,7 +5194,7 @@ html-escaper@^2.0.0:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/html-escaper/-/html-escaper-2.0.2.tgz#dfd60027da36a36dfcbe236262c00a5822681453"
   integrity sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==
 
-http-cache-semantics@^4.0.0, http-cache-semantics@^4.1.0:
+http-cache-semantics@^4.0.0:
   version "4.1.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/http-cache-semantics/-/http-cache-semantics-4.1.0.tgz#49e91c5cbf36c9b94bcfcd71c23d5249ec74e390"
   integrity sha512-carPklcUh7ROWRK7Cv27RPtdhYhUsela/ue5/jKzjegVvXDqM2ILE9Q2BGn9JZJh1g87cp56su/FgQSzcWS8cQ==
@@ -5896,13 +5255,6 @@ human-signals@^2.1.0:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
 
-humanize-ms@^1.2.1:
-  version "1.2.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/humanize-ms/-/humanize-ms-1.2.1.tgz#c46e3159a293f6b896da29316d8b6fe8bb79bbed"
-  integrity sha1-xG4xWaKT9riW2ikxbYtv6Lt5u+0=
-  dependencies:
-    ms "^2.0.0"
-
 hyperlinker@^1.0.0:
   version "1.0.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/hyperlinker/-/hyperlinker-1.0.0.tgz#23dc9e38a206b208ee49bc2d6c8ef47027df0c0e"
@@ -5914,13 +5266,6 @@ iconv-lite@0.4.24:
   integrity sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
-
-iconv-lite@^0.6.2:
-  version "0.6.3"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/iconv-lite/-/iconv-lite-0.6.3.tgz#a52f80bf38da1952eb5c681790719871a1a72501"
-  integrity sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==
-  dependencies:
-    safer-buffer ">= 2.1.2 < 3.0.0"
 
 ieee754@^1.2.1:
   version "1.2.1"
@@ -5973,11 +5318,6 @@ indent-string@^4.0.0:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
   integrity sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==
 
-infer-owner@^1.0.4:
-  version "1.0.4"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/infer-owner/-/infer-owner-1.0.4.tgz#c4cefcaa8e51051c2a40ba2ce8a3d27295af9467"
-  integrity sha512-IClj+Xz94+d7irH5qRyfJonOdfTzuDaifE6ZPWfx0N0+/ATZCbuTPq2prFl526urkQd90WyUKIh1DfBQ2hMz9A==
-
 inflected@^2.0.3:
   version "2.1.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/inflected/-/inflected-2.1.0.tgz#2816ac17a570bbbc8303ca05bca8bf9b3f959687"
@@ -5991,7 +5331,7 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@2, inherits@2.0.4, inherits@^2.0.1, inherits@^2.0.3:
+inherits@2, inherits@2.0.4, inherits@^2.0.1:
   version "2.0.4"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
@@ -6030,16 +5370,6 @@ interpret@^2.2.0:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/interpret/-/interpret-2.2.0.tgz#1a78a0b5965c40a5416d007ad6f50ad27c417df9"
   integrity sha512-Ju0Bz/cEia55xDwUWEa8+olFpCiQoypjnQySseKtmjNrnps3P+xfpUmGr90T7yjlVJmOtybRvPXhKMbHr+fWnw==
 
-invert-kv@^1.0.0:
-  version "1.0.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/invert-kv/-/invert-kv-1.0.0.tgz#104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
-  integrity sha1-EEqOSqym09jNFXqO+L+rLXo//bY=
-
-ip@^1.1.5:
-  version "1.1.5"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/ip/-/ip-1.1.5.tgz#bdded70114290828c0a039e72ef25f5aaec4354a"
-  integrity sha1-vd7XARQpCCjAoDnnLvJfWq7ENUo=
-
 ipaddr.js@1.9.1:
   version "1.9.1"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
@@ -6058,14 +5388,6 @@ is-accessor-descriptor@^1.0.0:
   integrity sha512-m5hnHTkcVsPfqx3AKlyttIPb7J+XykHvJP2B9bZDjlhLIoEq4XoK64Vg7boZlVWYK6LUY94dYPEE7Lh0ZkZKcQ==
   dependencies:
     kind-of "^6.0.0"
-
-is-arguments@^1.0.4, is-arguments@^1.1.0:
-  version "1.1.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/is-arguments/-/is-arguments-1.1.1.tgz#15b3f88fda01f2a97fec84ca761a560f123efa9b"
-  integrity sha512-8Q7EARjzEnKpt/PCD7e1cgUS0a6X8u5tdSiMqXhojOdoV9TsMsiO+9VLC5vAmO8N7/GmXn7yjR8qnA6bVAEzfA==
-  dependencies:
-    call-bind "^1.0.2"
-    has-tostringtag "^1.0.0"
 
 is-arrayish@^0.2.1:
   version "0.2.1"
@@ -6132,7 +5454,7 @@ is-data-descriptor@^1.0.0:
   dependencies:
     kind-of "^6.0.0"
 
-is-date-object@^1.0.1, is-date-object@^1.0.2:
+is-date-object@^1.0.1:
   version "1.0.5"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/is-date-object/-/is-date-object-1.0.5.tgz#0841d5536e724c25597bf6ea62e1bd38298df31f"
   integrity sha512-9YQaSxsAiSwcvS33MBk3wTCVnWK+HhF8VZR2jRxehM16QcVOdHqPn4VPHmRK4lSr38n9JriurInLcP90xsYNfQ==
@@ -6221,23 +5543,6 @@ is-installed-globally@^0.4.0:
     global-dirs "^3.0.0"
     is-path-inside "^3.0.2"
 
-is-lambda@^1.0.1:
-  version "1.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/is-lambda/-/is-lambda-1.0.1.tgz#3d9877899e6a53efc0160504cde15f82e6f061d5"
-  integrity sha1-PZh3iZ5qU+/AFgUEzeFfgubwYdU=
-
-is-lower-case@^1.1.0:
-  version "1.1.3"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/is-lower-case/-/is-lower-case-1.1.3.tgz#7e147be4768dc466db3bfb21cc60b31e6ad69393"
-  integrity sha1-fhR75HaNxGbbO/shzGCzHmrWk5M=
-  dependencies:
-    lower-case "^1.1.0"
-
-is-map@^2.0.1, is-map@^2.0.2:
-  version "2.0.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/is-map/-/is-map-2.0.2.tgz#00922db8c9bf73e81b7a335827bc2a43f2b91127"
-  integrity sha512-cOZFQQozTha1f4MxLFzlgKYPTyj26picdZTx82hbc/Xf4K/tZOOXSCkMvU4pKioRXGDLJRn0GM7Upe7kR721yg==
-
 is-negative-zero@^2.0.2:
   version "2.0.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/is-negative-zero/-/is-negative-zero-2.0.2.tgz#7bf6f03a28003b8b3965de3ac26f664d765f3150"
@@ -6301,7 +5606,7 @@ is-promise@^2.1.0:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/is-promise/-/is-promise-2.2.2.tgz#39ab959ccbf9a774cf079f7b40c7a26f763135f1"
   integrity sha512-+lP4/6lKUBfQjZ2pdxThZvLUAafmZb8OAxFb8XXtiQmS35INgr85hdOGoEs124ez1FCnZJt6jau/T+alh58QFQ==
 
-is-regex@^1.1.1, is-regex@^1.1.4:
+is-regex@^1.1.4:
   version "1.1.4"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/is-regex/-/is-regex-1.1.4.tgz#eef5663cd59fa4c0ae339505323df6854bb15958"
   integrity sha512-kvRdxDsxZjhzUX07ZnLydzS1TU/TJlTUHHY4YLL87e37oUA49DfkLqgy+VjFocowy29cKvcSiu+kIv728jTTVg==
@@ -6313,11 +5618,6 @@ is-retry-allowed@^1.1.0:
   version "1.2.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/is-retry-allowed/-/is-retry-allowed-1.2.0.tgz#d778488bd0a4666a3be8a1482b9f2baafedea8b4"
   integrity sha512-RUbUeKwvm3XG2VYamhJL1xFktgjvPzL0Hq8C+6yrWIswDy3BIXGqCxhxkc30N9jqK311gVU137K8Ei55/zVJRg==
-
-is-set@^2.0.1, is-set@^2.0.2:
-  version "2.0.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/is-set/-/is-set-2.0.2.tgz#90755fa4c2562dc1c5d4024760d6119b94ca18ec"
-  integrity sha512-+2cnTEZeY5z/iXGbLhPrOAaK/Mau5k5eXq9j14CpRTftq0pAJu2MwVRSZhyZWBzx3o6X795Lz6Bpb6R0GKf37g==
 
 is-shared-array-buffer@^1.0.2:
   version "1.0.2"
@@ -6333,7 +5633,7 @@ is-ssh@^1.3.0:
   dependencies:
     protocols "^1.1.0"
 
-is-stream@^1.0.1, is-stream@^1.1.0:
+is-stream@^1.1.0:
   version "1.1.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
   integrity sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
@@ -6357,33 +5657,10 @@ is-symbol@^1.0.2, is-symbol@^1.0.3:
   dependencies:
     has-symbols "^1.0.2"
 
-is-typed-array@^1.1.7:
-  version "1.1.8"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/is-typed-array/-/is-typed-array-1.1.8.tgz#cbaa6585dc7db43318bc5b89523ea384a6f65e79"
-  integrity sha512-HqH41TNZq2fgtGT8WHVFVJhBVGuY3AnP3Q36K8JKXUxSxRgk/d+7NjmwG2vo2mYmXK8UYZKu0qH8bVP5gEisjA==
-  dependencies:
-    available-typed-arrays "^1.0.5"
-    call-bind "^1.0.2"
-    es-abstract "^1.18.5"
-    foreach "^2.0.5"
-    has-tostringtag "^1.0.0"
-
 is-typedarray@^1.0.0:
   version "1.0.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
   integrity sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
-
-is-upper-case@^1.1.0:
-  version "1.1.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/is-upper-case/-/is-upper-case-1.1.2.tgz#8d0b1fa7e7933a1e58483600ec7d9661cbaf756f"
-  integrity sha1-jQsfp+eTOh5YSDYA7H2WYcuvdW8=
-  dependencies:
-    upper-case "^1.1.0"
-
-is-weakmap@^2.0.1:
-  version "2.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/is-weakmap/-/is-weakmap-2.0.1.tgz#5008b59bdc43b698201d18f62b37b2ca243e8cf2"
-  integrity sha512-NSBR4kH5oVj1Uwvv970ruUkCV7O1mzgVFO4/rev2cLRda9Tm9HrL70ZPut4rOHgY0FNrUu9BCbXA2sdQ+x0chA==
 
 is-weakref@^1.0.2:
   version "1.0.2"
@@ -6391,14 +5668,6 @@ is-weakref@^1.0.2:
   integrity sha512-qctsuLZmIQ0+vSSMfoVvyFe2+GSEvnmZ2ezTup1SBse9+twCCeial6EEi3Nc2KFcf6+qz2FBPnjXsk8xhKSaPQ==
   dependencies:
     call-bind "^1.0.2"
-
-is-weakset@^2.0.1:
-  version "2.0.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/is-weakset/-/is-weakset-2.0.2.tgz#4569d67a747a1ce5a994dfd4ef6dcea76e7c0a1d"
-  integrity sha512-t2yVvttHkQktwnNNmBQ98AhENLdPUTDTE21uPqAQ0ARwQfGeQKRVS0NNurH7bTf7RrvcVn1OOge45CnBeHCSmg==
-  dependencies:
-    call-bind "^1.0.2"
-    get-intrinsic "^1.1.1"
 
 is-windows@^1.0.2:
   version "1.0.2"
@@ -6421,11 +5690,6 @@ isarray@1.0.0:
   version "1.0.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
   integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
-
-isarray@^2.0.5:
-  version "2.0.5"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/isarray/-/isarray-2.0.5.tgz#8af1e4c1221244cc62459faf38940d4e644a5723"
-  integrity sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==
 
 isexe@^2.0.0:
   version "2.0.0"
@@ -6493,11 +5757,6 @@ istanbul-reports@^3.1.3:
   dependencies:
     html-escaper "^2.0.0"
     istanbul-lib-report "^3.0.0"
-
-iterall@1.1.3:
-  version "1.1.3"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/iterall/-/iterall-1.1.3.tgz#1cbbff96204056dde6656e2ed2e2226d0e6d72c9"
-  integrity sha512-Cu/kb+4HiNSejAPhSaN1VukdNTTi/r4/e+yykqjlG/IW+1gZH5b4+Bq3whDX4tvbYugta3r8KTMUiqT3fIGxuQ==
 
 iterall@^1.1.3, iterall@^1.2.1, iterall@^1.3.0:
   version "1.3.0"
@@ -6969,17 +6228,12 @@ jest@27.1.0:
     import-local "^3.0.2"
     jest-cli "^27.1.0"
 
-js-levenshtein@^1.1.6:
-  version "1.1.6"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/js-levenshtein/-/js-levenshtein-1.1.6.tgz#c6cee58eb3550372df8deb85fad5ce66ce01d59d"
-  integrity sha512-X2BB11YZtrRqY4EnQcLX5Rh373zbK4alC1FW7D7MBhL2gtcC17cTnr6DmfHZeS0s2rTHjUTMMHfG7gO8SSdw+g==
-
-"js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
+js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
-js-yaml@^3.10.0, js-yaml@^3.13.1:
+js-yaml@^3.13.1:
   version "3.14.1"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/js-yaml/-/js-yaml-3.14.1.tgz#dae812fdb3825fa306609a8717383c50c36a0537"
   integrity sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==
@@ -7079,13 +6333,6 @@ json5@^0.5.1:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/json5/-/json5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
   integrity sha1-Hq3nrMASA0rYTiOWdn6tn6VJWCE=
 
-json5@^1.0.1:
-  version "1.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
-  integrity sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==
-  dependencies:
-    minimist "^1.2.0"
-
 json5@^2.1.2, json5@^2.2.1:
   version "2.2.1"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/json5/-/json5-2.2.1.tgz#655d50ed1e6f95ad1a3caababd2b0efda10b395c"
@@ -7166,13 +6413,6 @@ latest-version@^5.1.0:
   integrity sha512-weT+r0kTkRQdCdYCNtkMwWXQTMEswKrFBkm4ckQOMVhhqhIMI1UT2hMj+1iigIhgSZm5gTmrRXBNoGUgaTY1xA==
   dependencies:
     package-json "^6.3.0"
-
-lcid@^1.0.0:
-  version "1.0.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/lcid/-/lcid-1.0.0.tgz#308accafa0bc483a3867b4b6f2b9506251d1b835"
-  integrity sha1-MIrMr6C8SDo4Z7S28rlQYlHRuDU=
-  dependencies:
-    invert-kv "^1.0.0"
 
 leven@^3.1.0:
   version "3.1.0"
@@ -7257,15 +6497,6 @@ loader-runner@^4.2.0:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/loader-runner/-/loader-runner-4.3.0.tgz#c1b4a163b99f614830353b16755e7149ac2314e1"
   integrity sha512-3R/1M+yS3j5ou80Me59j7F9IMs4PXs3VqRrm0TU3AbKPxlmpoY1TNscJV/oGJXo8qCatFGTfDbY6W6ipGOYXfg==
 
-loader-utils@^1.1.0:
-  version "1.4.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/loader-utils/-/loader-utils-1.4.0.tgz#c579b5e34cb34b1a74edc6c1fb36bfa371d5a613"
-  integrity sha512-qH0WSMBtn/oHuwjy/NucEgbx5dbxxnxup9s4PVXJUDHZBQY+s0NWA9rJf53RBnQZxfch7euUui7hpoAPvALZdA==
-  dependencies:
-    big.js "^5.2.2"
-    emojis-list "^3.0.0"
-    json5 "^1.0.1"
-
 loader-utils@^2.0.0:
   version "2.0.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/loader-utils/-/loader-utils-2.0.2.tgz#d6e3b4fb81870721ae4e0868ab11dd638368c129"
@@ -7274,14 +6505,6 @@ loader-utils@^2.0.0:
     big.js "^5.2.2"
     emojis-list "^3.0.0"
     json5 "^2.1.2"
-
-locate-path@^2.0.0:
-  version "2.0.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/locate-path/-/locate-path-2.0.0.tgz#2b568b265eec944c6d9c0de9c3dbbbca0354cd8e"
-  integrity sha1-K1aLJl7slExtnA3pw9u7ygNUzY4=
-  dependencies:
-    p-locate "^2.0.0"
-    path-exists "^3.0.0"
 
 locate-path@^3.0.0:
   version "3.0.0"
@@ -7338,7 +6561,7 @@ lodash.xorby@^4.7.0:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/lodash.xorby/-/lodash.xorby-4.7.0.tgz#9c19a6f9f063a6eb53dd03c1b6871799801463d7"
   integrity sha1-nBmm+fBjputT3QPBtocXmYAUY9c=
 
-lodash@^4.17.21, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.7.0, lodash@~4.17.10:
+lodash@^4.17.21, lodash@^4.7.0, lodash@~4.17.10:
   version "4.17.21"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -7359,7 +6582,7 @@ log-update@^2.3.0:
     cli-cursor "^2.0.0"
     wrap-ansi "^3.0.1"
 
-loglevel@^1.6.1, loglevel@^1.6.7, loglevel@^1.6.8:
+loglevel@^1.6.7:
   version "1.8.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/loglevel/-/loglevel-1.8.0.tgz#e7ec73a57e1e7b419cb6c6ac06bf050b67356114"
   integrity sha512-G6A/nJLRgWOuuwdNuA6koovfEV1YpqqAG4pRUlFaz3jj2QNZ8M4vBqnVA+HBTmU/AMNUtlOsMmSpF6NyOjztbA==
@@ -7368,25 +6591,6 @@ long@^4.0.0:
   version "4.0.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/long/-/long-4.0.0.tgz#9a7b71cfb7d361a194ea555241c92f7468d5bf28"
   integrity sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==
-
-loose-envify@^1.4.0:
-  version "1.4.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
-  integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
-  dependencies:
-    js-tokens "^3.0.0 || ^4.0.0"
-
-lower-case-first@^1.0.0:
-  version "1.0.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/lower-case-first/-/lower-case-first-1.0.2.tgz#e5da7c26f29a7073be02d52bac9980e5922adfa1"
-  integrity sha1-5dp8JvKacHO+AtUrrJmA5ZIq36E=
-  dependencies:
-    lower-case "^1.1.2"
-
-lower-case@^1.1.0, lower-case@^1.1.1, lower-case@^1.1.2:
-  version "1.1.4"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/lower-case/-/lower-case-1.1.4.tgz#9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
-  integrity sha1-miyr0bno4K6ZOkv31YdcOcQujqw=
 
 lower-case@^2.0.2:
   version "2.0.2"
@@ -7404,14 +6608,6 @@ lowercase-keys@^2.0.0:
   version "2.0.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/lowercase-keys/-/lowercase-keys-2.0.0.tgz#2603e78b7b4b0006cbca2fbcc8a3202558ac9479"
   integrity sha512-tqNXrS78oMOE73NMxK4EMLQsQowWf8jKooH9g7xPavRT706R6bkQJ6DY2Te7QukaZsulxa30wQ7bk0pm4XiHmA==
-
-lru-cache@^4.0.1:
-  version "4.1.5"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/lru-cache/-/lru-cache-4.1.5.tgz#8bbe50ea85bed59bc9e33dcab8235ee9bcf443cd"
-  integrity sha512-sWZlbEP2OsHNkXrMl5GYk/jKk70MBng6UU4YI/qGDYbgf6YbP4EvmqISbXCoJiRKs+1bSpFHVgQxvJ17F2li5g==
-  dependencies:
-    pseudomap "^1.0.2"
-    yallist "^2.1.2"
 
 lru-cache@^6.0.0:
   version "6.0.0"
@@ -7445,27 +6641,6 @@ make-error@^1, make-error@^1.1.1:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/make-error/-/make-error-1.3.6.tgz#2eb2e37ea9b67c4891f684a1394799af484cf7a2"
   integrity sha512-s8UhlNe7vPKomQhC1qFelMokr/Sc3AgNbso3n74mVPA5LTZwkB9NlXf4XPamLxJE8h0gh73rM94xvwRT2CVInw==
 
-make-fetch-happen@^8.0.0:
-  version "8.0.14"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/make-fetch-happen/-/make-fetch-happen-8.0.14.tgz#aaba73ae0ab5586ad8eaa68bd83332669393e222"
-  integrity sha512-EsS89h6l4vbfJEtBZnENTOFk8mCRpY5ru36Xe5bcX1KYIli2mkSHqoFsp5O1wMDvTJJzxe/4THpCTtygjeeGWQ==
-  dependencies:
-    agentkeepalive "^4.1.3"
-    cacache "^15.0.5"
-    http-cache-semantics "^4.1.0"
-    http-proxy-agent "^4.0.1"
-    https-proxy-agent "^5.0.0"
-    is-lambda "^1.0.1"
-    lru-cache "^6.0.0"
-    minipass "^3.1.3"
-    minipass-collect "^1.0.2"
-    minipass-fetch "^1.3.2"
-    minipass-flush "^1.0.5"
-    minipass-pipeline "^1.2.4"
-    promise-retry "^2.0.1"
-    socks-proxy-agent "^5.0.0"
-    ssri "^8.0.0"
-
 makeerror@1.0.12:
   version "1.0.12"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/makeerror/-/makeerror-1.0.12.tgz#3e5dd2079a82e812e983cc6610c4a2cb0eaa801a"
@@ -7496,13 +6671,6 @@ media-typer@0.3.0:
   version "0.3.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
-
-mem@^1.1.0:
-  version "1.1.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/mem/-/mem-1.1.0.tgz#5edd52b485ca1d900fe64895505399a0dfa45f76"
-  integrity sha1-Xt1StIXKHZAP5kiVUFOZoN+kX3Y=
-  dependencies:
-    mimic-fn "^1.0.0"
 
 merge-descriptors@1.0.1:
   version "1.0.1"
@@ -7583,11 +6751,6 @@ mimic-response@^1.0.0, mimic-response@^1.0.1:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/mimic-response/-/mimic-response-1.0.1.tgz#4923538878eef42063cb8a3e3b0798781487ab1b"
   integrity sha512-j5EctnkH7amfV/q5Hgmoal1g2QHFJRraOtmx0JpIqkxhBhI/lJSl1nMpQ45hVarwNETOoWEimndZ4QK0RHxuxQ==
 
-minimalistic-assert@^1.0.1:
-  version "1.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
-  integrity sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==
-
 minimatch@^3.0.4:
   version "3.1.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
@@ -7607,53 +6770,14 @@ minimist@^1.1.1, minimist@^1.2.0:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
   integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
-minipass-collect@^1.0.2:
-  version "1.0.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/minipass-collect/-/minipass-collect-1.0.2.tgz#22b813bf745dc6edba2576b940022ad6edc8c617"
-  integrity sha512-6T6lH0H8OG9kITm/Jm6tdooIbogG9e0tLgpY6mphXSm/A9u8Nq1ryBG+Qspiub9LjWlBPsPS3tWQ/Botq4FdxA==
-  dependencies:
-    minipass "^3.0.0"
-
-minipass-fetch@^1.3.2:
-  version "1.4.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/minipass-fetch/-/minipass-fetch-1.4.1.tgz#d75e0091daac1b0ffd7e9d41629faff7d0c1f1b6"
-  integrity sha512-CGH1eblLq26Y15+Azk7ey4xh0J/XfJfrCox5LDJiKqI2Q2iwOLOKrlmIaODiSQS8d18jalF6y2K2ePUm0CmShw==
-  dependencies:
-    minipass "^3.1.0"
-    minipass-sized "^1.0.3"
-    minizlib "^2.0.0"
-  optionalDependencies:
-    encoding "^0.1.12"
-
-minipass-flush@^1.0.5:
-  version "1.0.5"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/minipass-flush/-/minipass-flush-1.0.5.tgz#82e7135d7e89a50ffe64610a787953c4c4cbb373"
-  integrity sha512-JmQSYYpPUqX5Jyn1mXaRwOda1uQ8HP5KAT/oDSLCzt1BYRhQU0/hDtsB1ufZfEEzMZ9aAVmsBw8+FWsIXlClWw==
-  dependencies:
-    minipass "^3.0.0"
-
-minipass-pipeline@^1.2.2, minipass-pipeline@^1.2.4:
-  version "1.2.4"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/minipass-pipeline/-/minipass-pipeline-1.2.4.tgz#68472f79711c084657c067c5c6ad93cddea8214c"
-  integrity sha512-xuIq7cIOt09RPRJ19gdi4b+RiNvDFYe5JH+ggNvBqGqpQXcru3PcRmOZuHBKWK1Txf9+cQ+HMVN4d6z46LZP7A==
-  dependencies:
-    minipass "^3.0.0"
-
-minipass-sized@^1.0.3:
-  version "1.0.3"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/minipass-sized/-/minipass-sized-1.0.3.tgz#70ee5a7c5052070afacfbc22977ea79def353b70"
-  integrity sha512-MbkQQ2CTiBMlA2Dm/5cY+9SWFEN8pzzOXi6rlM5Xxq0Yqbda5ZQy9sU75a673FE9ZK0Zsbr6Y5iP6u9nktfg2g==
-  dependencies:
-    minipass "^3.0.0"
-
-minipass@^3.0.0, minipass@^3.1.0, minipass@^3.1.1, minipass@^3.1.3:
+minipass@^3.0.0:
   version "3.1.6"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/minipass/-/minipass-3.1.6.tgz#3b8150aa688a711a1521af5e8779c1d3bb4f45ee"
   integrity sha512-rty5kpw9/z8SX9dmxblFA6edItUmwJgMeYDZRrwlIVN27i8gysGbznJwUggw2V/FVqFSDdWy040ZPS811DYAqQ==
   dependencies:
     yallist "^4.0.0"
 
-minizlib@^2.0.0, minizlib@^2.1.1:
+minizlib@^2.1.1:
   version "2.1.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/minizlib/-/minizlib-2.1.2.tgz#e90d3466ba209b932451508a11ce3d3632145931"
   integrity sha512-bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg==
@@ -7694,7 +6818,7 @@ ms@2.1.2:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-ms@2.1.3, ms@^2.0.0, ms@^2.1.1:
+ms@2.1.3, ms@^2.1.1:
   version "2.1.3"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
@@ -7750,13 +6874,6 @@ nice-try@^1.0.4:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
-no-case@^2.2.0, no-case@^2.3.2:
-  version "2.3.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/no-case/-/no-case-2.3.2.tgz#60b813396be39b3f1288a4c1ed5d1e7d28b464ac"
-  integrity sha512-rmTZ9kz+f3rCvK2TD1Ue/oZlns7OGoIWP4fc3llxxRXlOkHKoWPPWJOfFYpITabSow43QJbRIoHQXtt10VldyQ==
-  dependencies:
-    lower-case "^1.1.1"
-
 no-case@^3.0.4:
   version "3.0.4"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/no-case/-/no-case-3.0.4.tgz#d361fd5c9800f558551a8369fc0dcd4662b6124d"
@@ -7772,19 +6889,6 @@ node-environment-flags@^1.0.5:
   dependencies:
     object.getownpropertydescriptors "^2.0.3"
     semver "^5.7.0"
-
-node-fetch@2.1.2:
-  version "2.1.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/node-fetch/-/node-fetch-2.1.2.tgz#ab884e8e7e57e38a944753cec706f788d1768bb5"
-  integrity sha1-q4hOjn5X44qUR1POxwb3iNF2i7U=
-
-node-fetch@^1.7.3:
-  version "1.7.3"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
-  integrity sha512-NhZ4CsKx7cYm2vSrBAr2PvFOe6sWDf0UYLRqA6svUYg7+/TSfVAu49jYC4BvQ4Sms9SZgdqGBgroqfDhJdTyKQ==
-  dependencies:
-    encoding "^0.1.11"
-    is-stream "^1.0.1"
 
 node-fetch@^2.6.1, node-fetch@^2.6.7:
   version "2.6.7"
@@ -7885,7 +6989,7 @@ nwsapi@^2.2.0:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/nwsapi/-/nwsapi-2.2.0.tgz#204879a9e3d068ff2a55139c2c772780681a38b7"
   integrity sha512-h2AatdwYH+JHiZpv7pt/gSX1XoRGb7L/qSIeuqA6GwYoF9w1vP1cw42TO0aI2pNyshRK5893hNSl+1//vHK7hQ==
 
-object-assign@^4, object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
+object-assign@^4, object-assign@^4.0.1, object-assign@^4.1.0:
   version "4.1.1"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
@@ -7903,14 +7007,6 @@ object-inspect@^1.12.0, object-inspect@^1.9.0:
   version "1.12.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/object-inspect/-/object-inspect-1.12.0.tgz#6e2c120e868fd1fd18cb4f18c31741d0d6e776f0"
   integrity sha512-Ho2z80bVIvJloH+YzRmpZVQe87+qASmBUKZDWgx9cu+KDrX2ZDH/3tMy+gXbZETVGs2M8YdxObOh7XAtim9Y0g==
-
-object-is@^1.1.4:
-  version "1.1.5"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/object-is/-/object-is-1.1.5.tgz#b9deeaa5fc7f1846a0faecdceec138e5778f53ac"
-  integrity sha512-3cyDsyHgtmi7I7DfSSI2LDp6SK2lwvtbg0p0R1e0RvTqF5ceGx+K2dfSjm1bKDMVCFEDAQvy+o8c6a7VujOddw==
-  dependencies:
-    call-bind "^1.0.2"
-    define-properties "^1.1.3"
 
 object-keys@^1.1.1:
   version "1.1.1"
@@ -7995,14 +7091,6 @@ onetime@^5.1.2:
   dependencies:
     mimic-fn "^2.1.0"
 
-optimism@^0.16.1:
-  version "0.16.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/optimism/-/optimism-0.16.1.tgz#7c8efc1f3179f18307b887e18c15c5b7133f6e7d"
-  integrity sha512-64i+Uw3otrndfq5kaoGNoY7pvOhSsjFEN4bdEFh80MWVk/dbgJfMv7VFDeCT8LxNAlEVhQmdVEbfE7X2nWNIIg==
-  dependencies:
-    "@wry/context" "^0.6.0"
-    "@wry/trie" "^0.3.0"
-
 optionator@^0.8.1:
   version "0.8.3"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/optionator/-/optionator-0.8.3.tgz#84fa1d036fe9d3c7e21d99884b601167ec8fb495"
@@ -8015,15 +7103,6 @@ optionator@^0.8.1:
     type-check "~0.3.2"
     word-wrap "~1.2.3"
 
-os-locale@^2.0.0:
-  version "2.1.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/os-locale/-/os-locale-2.1.0.tgz#42bc2900a6b5b8bd17376c8e882b65afccf24bf2"
-  integrity sha512-3sslG3zJbEYcaC4YVAvDorjGxc7tv6KVATnLPZONiljsUncvihe9BQoVCEs0RZ1kmf4Hk9OBqlZfJZWI4GanKA==
-  dependencies:
-    execa "^0.7.0"
-    lcid "^1.0.0"
-    mem "^1.1.0"
-
 p-cancelable@^1.0.0:
   version "1.1.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/p-cancelable/-/p-cancelable-1.1.0.tgz#d078d15a3af409220c886f1d9a0ca2e441ab26cc"
@@ -8034,26 +7113,12 @@ p-finally@^1.0.0:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
   integrity sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4=
 
-p-limit@^1.1.0:
-  version "1.3.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/p-limit/-/p-limit-1.3.0.tgz#b86bd5f0c25690911c7590fcbfc2010d54b3ccb8"
-  integrity sha512-vvcXsLAJ9Dr5rQOPk7toZQZJApBl2K4J6dANSsEuh6QI41JYcsS/qhTGa9ErIUUgK3WNQoJYvylxvjqmiqEA9Q==
-  dependencies:
-    p-try "^1.0.0"
-
 p-limit@^2.0.0, p-limit@^2.2.0:
   version "2.3.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/p-limit/-/p-limit-2.3.0.tgz#3dd33c647a214fdfffd835933eb086da0dc21db1"
   integrity sha512-//88mFWSJx8lxCzwdAABTJL2MyWB12+eIY7MDL2SqLmAkeKU9qxRvWuSyTjm3FUmpBEMuFfckAIqEaVGUDxb6w==
   dependencies:
     p-try "^2.0.0"
-
-p-locate@^2.0.0:
-  version "2.0.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/p-locate/-/p-locate-2.0.0.tgz#20a0103b222a70c8fd39cc2e580680f3dde5ec43"
-  integrity sha1-IKAQOyIqcMj9OcwuWAaA893l7EM=
-  dependencies:
-    p-limit "^1.1.0"
 
 p-locate@^3.0.0:
   version "3.0.0"
@@ -8074,18 +7139,6 @@ p-map@^2.0.0:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/p-map/-/p-map-2.1.0.tgz#310928feef9c9ecc65b68b17693018a665cea175"
   integrity sha512-y3b8Kpd8OAN444hxfBbFfj1FY/RjtTd8tzYwhUqNYXx0fXx2iX4maP4Qr6qhIKbQXI02wTLAda4fYUbDagTUFw==
 
-p-map@^4.0.0:
-  version "4.0.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/p-map/-/p-map-4.0.0.tgz#bb2f95a5eda2ec168ec9274e06a747c3e2904d2b"
-  integrity sha512-/bjOqmgETBYB5BoEeGVea8dmvHb2m9GLy1E9W43yeyfP6QQCZGFNa+XRceJEuDB6zqr+gKpIAmlLebMpykw/MQ==
-  dependencies:
-    aggregate-error "^3.0.0"
-
-p-try@^1.0.0:
-  version "1.0.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/p-try/-/p-try-1.0.0.tgz#cbc79cdbaf8fd4228e13f621f2b1a237c1b207b3"
-  integrity sha1-y8ec26+P1CKOE/Yh8rGiN8GyB7M=
-
 p-try@^2.0.0:
   version "2.2.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
@@ -8100,13 +7153,6 @@ package-json@^6.3.0:
     registry-auth-token "^4.0.0"
     registry-url "^5.0.0"
     semver "^6.2.0"
-
-param-case@^2.1.0:
-  version "2.1.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/param-case/-/param-case-2.1.1.tgz#df94fd8cf6531ecf75e6bef9a0858fbc72be2247"
-  integrity sha1-35T9jPZTHs915r75oIWPvHK+Ikc=
-  dependencies:
-    no-case "^2.2.0"
 
 param-case@^3.0.4:
   version "3.0.4"
@@ -8181,14 +7227,6 @@ parseurl@^1.3.2, parseurl@~1.3.3:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/parseurl/-/parseurl-1.3.3.tgz#9da19e7bee8d12dff0513ed5b76957793bc2e8d4"
   integrity sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==
 
-pascal-case@^2.0.0:
-  version "2.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/pascal-case/-/pascal-case-2.0.1.tgz#2d578d3455f660da65eca18ef95b4e0de912761e"
-  integrity sha1-LVeNNFX2YNpl7KGO+VtODekSdh4=
-  dependencies:
-    camel-case "^3.0.0"
-    upper-case-first "^1.1.0"
-
 pascal-case@^3.1.2:
   version "3.1.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/pascal-case/-/pascal-case-3.1.2.tgz#b48e0ef2b98e205e7c1dae747d0b1508237660eb"
@@ -8209,13 +7247,6 @@ password-prompt@^1.1.2:
   dependencies:
     ansi-escapes "^3.1.0"
     cross-spawn "^6.0.5"
-
-path-case@^2.1.0:
-  version "2.1.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/path-case/-/path-case-2.1.1.tgz#94b8037c372d3fe2906e465bb45e25d226e8eea5"
-  integrity sha1-lLgDfDctP+KQbkZbtF4l0ibo7qU=
-  dependencies:
-    no-case "^2.2.0"
 
 path-case@^3.0.4:
   version "3.0.4"
@@ -8283,11 +7314,6 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3, picomatch@^2.3.1:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
-pify@^3.0.0:
-  version "3.0.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
-  integrity sha1-5aSs0sEB/fPZpNB/DbxNtJ3SgXY=
-
 pify@^4.0.1:
   version "4.0.1"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/pify/-/pify-4.0.1.tgz#4b2cd25c50d598735c50292224fd8c6df41e3231"
@@ -8339,7 +7365,7 @@ prettier@2.6.2:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/prettier/-/prettier-2.6.2.tgz#e26d71a18a74c3d0f0597f55f01fb6c06c206032"
   integrity sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==
 
-pretty-format@^27.0.0, pretty-format@^27.5.1:
+pretty-format@^27.5.1:
   version "27.5.1"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/pretty-format/-/pretty-format-27.5.1.tgz#2181879fdea51a7a5851fb39d920faa63f01d88e"
   integrity sha512-Qb1gy5OrP5+zDf2Bvnzdl3jsTf1qXVMazbvCoKhtKqVs4/YK4ozX4gKQJJVyNe+cajNPn0KoC0MC3FUmaHWEmQ==
@@ -8353,19 +7379,6 @@ process@^0.11.1:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
 
-promise-inflight@^1.0.1:
-  version "1.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
-  integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
-
-promise-retry@^2.0.1:
-  version "2.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/promise-retry/-/promise-retry-2.0.1.tgz#ff747a13620ab57ba688f5fc67855410c370da22"
-  integrity sha512-y+WKFlBR8BGXnsNlIHFGPZmyDf3DFMoLhaflAnyZgV6rG6xu+JwesTo2Q9R6XwYmtmwAFCkAk3e35jEdoeh/3g==
-  dependencies:
-    err-code "^2.0.2"
-    retry "^0.12.0"
-
 prompts@^2.0.1:
   version "2.4.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/prompts/-/prompts-2.4.2.tgz#7b57e73b3a48029ad10ebd44f74b01722a4cb069"
@@ -8373,15 +7386,6 @@ prompts@^2.0.1:
   dependencies:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
-
-prop-types@^15.7.2:
-  version "15.8.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
-  integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
-  dependencies:
-    loose-envify "^1.4.0"
-    object-assign "^4.1.1"
-    react-is "^16.13.1"
 
 protocols@^1.1.0, protocols@^1.4.0:
   version "1.4.8"
@@ -8395,11 +7399,6 @@ proxy-addr@~2.0.7:
   dependencies:
     forwarded "0.2.0"
     ipaddr.js "1.9.1"
-
-pseudomap@^1.0.2:
-  version "1.0.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
-  integrity sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
 
 psl@^1.1.33:
   version "1.8.0"
@@ -8500,11 +7499,6 @@ rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-is@^16.13.1, react-is@^16.7.0:
-  version "16.13.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
-  integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
-
 react-is@^17.0.1:
   version "17.0.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
@@ -8585,15 +7579,6 @@ regex-not@^1.0.0, regex-not@^1.0.2:
     extend-shallow "^3.0.2"
     safe-regex "^1.1.0"
 
-regexp.prototype.flags@^1.3.0:
-  version "1.4.3"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/regexp.prototype.flags/-/regexp.prototype.flags-1.4.3.tgz#87cab30f80f66660181a3bb7bf5981a872b367ac"
-  integrity sha512-fjggEOO3slI6Wvgjwflkc4NFRCTZAu5CnNfBd5qOMYhWdn67nJBBu34/TkD++eeFmd8C9r9jfXJ27+nSiRkSUA==
-  dependencies:
-    call-bind "^1.0.2"
-    define-properties "^1.1.3"
-    functions-have-names "^1.2.2"
-
 regexpp@^3.1.0:
   version "3.2.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/regexpp/-/regexpp-3.2.0.tgz#0425a2768d8f23bad70ca4b90461fa2f1213e1b2"
@@ -8662,11 +7647,6 @@ require-from-string@^2.0.2:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/require-from-string/-/require-from-string-2.0.2.tgz#89a7fdd938261267318eafe14f9c32e598c36909"
   integrity sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==
 
-require-main-filename@^1.0.1:
-  version "1.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/require-main-filename/-/require-main-filename-1.0.1.tgz#97f717b69d48784f5f526a6c5aa8ffdda055a4d1"
-  integrity sha1-l/cXtp1IeE9fUmpsWqj/3aBVpNE=
-
 reselect@^4.0.0:
   version "4.1.5"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/reselect/-/reselect-4.1.5.tgz#852c361247198da6756d07d9296c2b51eddb79f6"
@@ -8733,22 +7713,10 @@ retry@0.13.1:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/retry/-/retry-0.13.1.tgz#185b1587acf67919d63b357349e03537b2484658"
   integrity sha512-XQBQ3I8W1Cge0Seh+6gjj03LbmRFWuoszgK9ooCpwYIrhhoO80pfq4cUkU5DkknwfOfFteRwlZ56PYOGYyFWdg==
 
-retry@^0.12.0:
-  version "0.12.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/retry/-/retry-0.12.0.tgz#1b42a6266a21f07421d1b0b54b7dc167b01c013b"
-  integrity sha1-G0KmJmoh8HQh0bC1S33BZ7AcATs=
-
 reusify@^1.0.4:
   version "1.0.4"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/reusify/-/reusify-1.0.4.tgz#90da382b1e126efc02146e90845a88db12925d76"
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
-
-rimraf@^2.6.2:
-  version "2.7.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/rimraf/-/rimraf-2.7.1.tgz#35797f13a7fdadc566142c29d4f07ccad483e3ec"
-  integrity sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==
-  dependencies:
-    glob "^7.1.3"
 
 rimraf@^3.0.0, rimraf@^3.0.2:
   version "3.0.2"
@@ -8805,7 +7773,7 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
-"safer-buffer@>= 2.1.2 < 3", "safer-buffer@>= 2.1.2 < 3.0.0":
+"safer-buffer@>= 2.1.2 < 3":
   version "2.1.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
@@ -8908,14 +7876,6 @@ send@0.17.2:
     range-parser "~1.2.1"
     statuses "~1.5.0"
 
-sentence-case@^2.1.0:
-  version "2.1.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/sentence-case/-/sentence-case-2.1.1.tgz#1f6e2dda39c168bf92d13f86d4a918933f667ed4"
-  integrity sha1-H24t2jnBaL+S0T+G1KkYkz9mftQ=
-  dependencies:
-    no-case "^2.2.0"
-    upper-case-first "^1.1.2"
-
 sentence-case@^3.0.4:
   version "3.0.4"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/sentence-case/-/sentence-case-3.0.4.tgz#3645a7b8c117c787fde8702056225bb62a45131f"
@@ -8948,11 +7908,6 @@ serve-static@1.14.2:
     escape-html "~1.0.3"
     parseurl "~1.3.3"
     send "0.17.2"
-
-set-blocking@^2.0.0:
-  version "2.0.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
-  integrity sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
 
 set-value@^2.0.0, set-value@^2.0.1:
   version "2.0.1"
@@ -9022,7 +7977,7 @@ shelljs@0.8.4:
     interpret "^1.0.0"
     rechoir "^0.6.2"
 
-side-channel@^1.0.3, side-channel@^1.0.4:
+side-channel@^1.0.4:
   version "1.0.4"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/side-channel/-/side-channel-1.0.4.tgz#efce5c8fdc104ee751b25c58d4290011fa5ea2cf"
   integrity sha512-q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw==
@@ -9059,18 +8014,6 @@ slice-ansi@^4.0.0:
     ansi-styles "^4.0.0"
     astral-regex "^2.0.0"
     is-fullwidth-code-point "^3.0.0"
-
-smart-buffer@^4.2.0:
-  version "4.2.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/smart-buffer/-/smart-buffer-4.2.0.tgz#6e1d71fa4f18c05f7d0ff216dd16a481d0e8d9ae"
-  integrity sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==
-
-snake-case@^2.1.0:
-  version "2.1.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/snake-case/-/snake-case-2.1.0.tgz#41bdb1b73f30ec66a04d4e2cad1b76387d4d6d9f"
-  integrity sha1-Qb2xtz8w7GagTU4srRt2OH1NbZ8=
-  dependencies:
-    no-case "^2.2.0"
 
 snake-case@^3.0.4:
   version "3.0.4"
@@ -9110,23 +8053,6 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-socks-proxy-agent@^5.0.0:
-  version "5.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/socks-proxy-agent/-/socks-proxy-agent-5.0.1.tgz#032fb583048a29ebffec2e6a73fca0761f48177e"
-  integrity sha512-vZdmnjb9a2Tz6WEQVIurybSwElwPxMZaIc7PzqbJTrezcKNznv6giT7J7tZDZ1BojVaa1jvO/UiUdhDVB0ACoQ==
-  dependencies:
-    agent-base "^6.0.2"
-    debug "4"
-    socks "^2.3.3"
-
-socks@^2.3.3:
-  version "2.6.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/socks/-/socks-2.6.2.tgz#ec042d7960073d40d94268ff3bb727dc685f111a"
-  integrity sha512-zDZhHhZRY9PxRruRMR7kMhnf3I8hDs4S3f9RecfnGxvcBHQcKcIH/oUcEWffsfl1XxdYlA7nnlGbbTvPz9D8gA==
-  dependencies:
-    ip "^1.1.5"
-    smart-buffer "^4.2.0"
-
 source-map-resolve@^0.5.0:
   version "0.5.3"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/source-map-resolve/-/source-map-resolve-0.5.3.tgz#190866bece7553e1f8f267a2ee82c606b5509a1a"
@@ -9138,7 +8064,7 @@ source-map-resolve@^0.5.0:
     source-map-url "^0.4.0"
     urix "^0.1.0"
 
-source-map-support@^0.5.0, source-map-support@^0.5.16, source-map-support@^0.5.17, source-map-support@^0.5.6, source-map-support@~0.5.20:
+source-map-support@^0.5.16, source-map-support@^0.5.17, source-map-support@^0.5.6, source-map-support@~0.5.20:
   version "0.5.21"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
   integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
@@ -9187,13 +8113,6 @@ sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
-
-ssri@^8.0.0, ssri@^8.0.1:
-  version "8.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/ssri/-/ssri-8.0.1.tgz#638e4e439e2ffbd2cd289776d5ca457c4f51a2af"
-  integrity sha512-97qShzy1AiyxvPNIkLWoGua7xoQzzPjQ0HAH4B0rWKo7SZ6USuPcrUiAFrws0UH8RrbWmgq3LMTObhPIHbbBeQ==
-  dependencies:
-    minipass "^3.1.1"
 
 stack-utils@^2.0.3:
   version "2.0.5"
@@ -9252,7 +8171,7 @@ string-width@^1.0.1:
     is-fullwidth-code-point "^1.0.0"
     strip-ansi "^3.0.0"
 
-string-width@^2.0.0, string-width@^2.1.1:
+string-width@^2.1.1:
   version "2.1.1"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/string-width/-/string-width-2.1.1.tgz#ab93f27a8dc13d28cac815c462143a6d9012ae9e"
   integrity sha512-nOqH59deCq9SRHlxq1Aw85Jnt4w6KvLKqWVik6oA9ZklXLNIOlqg4F2yrT1MVaTjAqvVwdfeZ7w7aCvJD7ugkw==
@@ -9393,23 +8312,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-swap-case@^1.1.0:
-  version "1.1.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/swap-case/-/swap-case-1.1.2.tgz#c39203a4587385fad3c850a0bd1bcafa081974e3"
-  integrity sha1-w5IDpFhzhfrTyFCgvRvK+ggZdOM=
-  dependencies:
-    lower-case "^1.1.1"
-    upper-case "^1.1.1"
-
 symbol-observable@^1.0.4, symbol-observable@^1.1.0:
   version "1.2.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
   integrity sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==
-
-symbol-observable@^4.0.0:
-  version "4.0.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/symbol-observable/-/symbol-observable-4.0.0.tgz#5b425f192279e87f2f9b937ac8540d1984b39205"
-  integrity sha512-b19dMThMV4HVFynSAM1++gBHAbk2Tc/osgLIBZMKsyqh34jb2e8Os7T6ZW/Bt3pJFdBTd2JwAnAAEQV7rSNvcQ==
 
 symbol-tree@^3.2.4:
   version "3.2.4"
@@ -9432,7 +8338,7 @@ tapable@^2.1.1, tapable@^2.2.0:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/tapable/-/tapable-2.2.1.tgz#1967a73ef4060a82f12ab96af86d52fdb76eeca0"
   integrity sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==
 
-tar@^6.0.2, tar@^6.1.0:
+tar@^6.1.0:
   version "6.1.11"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/tar/-/tar-6.1.11.tgz#6760a38f003afa1b2ffd0ffe9e9abbd0eab3d621"
   integrity sha512-an/KZQzQUkZCkuoAA64hM92X0Urb6VpRhAFllDzz44U2mcD5scmT3zBc4VgVpkugF580+DQn8eAFSyoQt0tznA==
@@ -9500,14 +8406,6 @@ throat@^6.0.1:
   version "6.0.1"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/throat/-/throat-6.0.1.tgz#d514fedad95740c12c2d7fc70ea863eb51ade375"
   integrity sha512-8hmiGIJMDlwjg7dlJ4yKGLK8EsYqKgPWbG3b4wjJddKNwc7N7Dpn08Df4szr/sZdMVeOstrdYSsqzX6BYbcB+w==
-
-title-case@^2.1.0:
-  version "2.1.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/title-case/-/title-case-2.1.1.tgz#3e127216da58d2bc5becf137ab91dae3a7cd8faa"
-  integrity sha1-PhJyFtpY0rxb7PE3q5Ha46fNj6o=
-  dependencies:
-    no-case "^2.2.0"
-    upper-case "^1.0.3"
 
 tmpl@1.0.5:
   version "1.0.5"
@@ -9589,29 +8487,12 @@ tr46@~0.0.3:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
   integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
 
-trim-right@^1.0.1:
-  version "1.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
-  integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
-
-ts-graphviz@^0.16.0:
-  version "0.16.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/ts-graphviz/-/ts-graphviz-0.16.0.tgz#7a6e6b5434854bc90ab861e70d5af0d6d20729a7"
-  integrity sha512-3fTPO+G6bSQNvMh/XQQzyiahVLMMj9kqYO99ivUraNJ3Wp05HZOOVtRhi6w9hq7+laP1MKHjLBtGWqTeb1fcpg==
-
 ts-invariant@^0.4.0:
   version "0.4.4"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/ts-invariant/-/ts-invariant-0.4.4.tgz#97a523518688f93aafad01b0e80eb803eb2abd86"
   integrity sha512-uEtWkFM/sdZvRNNDL3Ehu4WVpwaulhwQszV8mrtcdeE8nN00BV9mAmQ88RkrBhFgl9gMgvjJLAQcZbnPXI9mlA==
   dependencies:
     tslib "^1.9.3"
-
-ts-invariant@^0.9.4:
-  version "0.9.4"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/ts-invariant/-/ts-invariant-0.9.4.tgz#42ac6c791aade267dd9dc65276549df5c5d71cac"
-  integrity sha512-63jtX/ZSwnUNi/WhXjnK8kz4cHHpYS60AnmA6ixz17l7E12a5puCWFlNpkne5Rl0J8TBPVHpGjsj4fxs8ObVLQ==
-  dependencies:
-    tslib "^2.1.0"
 
 ts-node@^8:
   version "8.10.2"
@@ -9629,7 +8510,7 @@ tslib@^1, tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.0, tslib@^2.3.1, tslib@~2.3.0:
+tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.1:
   version "2.3.1"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
@@ -9800,20 +8681,6 @@ union-value@^1.0.0:
     is-extendable "^0.1.1"
     set-value "^2.0.1"
 
-unique-filename@^1.1.1:
-  version "1.1.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/unique-filename/-/unique-filename-1.1.1.tgz#1d69769369ada0583103a1e6ae87681b56573230"
-  integrity sha512-Vmp0jIp2ln35UTXuryvjzkjGdRyf9b2lTXuSYUiPmzRcl3FDtYqAwOnTJkAngD9SWhnoJzDbTKwaOrZ+STtxNQ==
-  dependencies:
-    unique-slug "^2.0.0"
-
-unique-slug@^2.0.0:
-  version "2.0.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/unique-slug/-/unique-slug-2.0.2.tgz#baabce91083fc64e945b0f3ad613e264f7cd4e6c"
-  integrity sha512-zoWr9ObaxALD3DOPfjPSqxt4fnZiWblxHIgeWqW8x7UqDzEtHEQLzji2cuJYQFCU6KmoJikOYAZlrTHHebjx2w==
-  dependencies:
-    imurmurhash "^0.1.4"
-
 unique-string@^2.0.0:
   version "2.0.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/unique-string/-/unique-string-2.0.0.tgz#39c6451f81afb2749de2b233e3f7c5e8843bd89d"
@@ -9864,24 +8731,12 @@ update-notifier@^5.1.0:
     semver-diff "^3.1.1"
     xdg-basedir "^4.0.0"
 
-upper-case-first@^1.1.0, upper-case-first@^1.1.2:
-  version "1.1.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/upper-case-first/-/upper-case-first-1.1.2.tgz#5d79bedcff14419518fd2edb0a0507c9b6859115"
-  integrity sha1-XXm+3P8UQZUY/S7bCgUHybaFkRU=
-  dependencies:
-    upper-case "^1.1.1"
-
 upper-case-first@^2.0.2:
   version "2.0.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/upper-case-first/-/upper-case-first-2.0.2.tgz#992c3273f882abd19d1e02894cc147117f844324"
   integrity sha512-514ppYHBaKwfJRK/pNC6c/OxfGa0obSnAl106u97Ed0I625Nin96KAjttZF6ZL3e1XLtphxnqrOi9iWgm+u+bg==
   dependencies:
     tslib "^2.0.3"
-
-upper-case@^1.0.3, upper-case@^1.1.0, upper-case@^1.1.1, upper-case@^1.1.3:
-  version "1.1.3"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/upper-case/-/upper-case-1.1.3.tgz#f6b4501c2ec4cdd26ba78be7222961de77621598"
-  integrity sha1-9rRQHC7EzdJrp4vnIilh3ndiFZg=
 
 upper-case@^2.0.2:
   version "2.0.2"
@@ -9972,11 +8827,6 @@ validator@^13.7.0:
   version "13.7.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/validator/-/validator-13.7.0.tgz#4f9658ba13ba8f3d82ee881d3516489ea85c0857"
   integrity sha512-nYXQLCBkpJ8X6ltALua9dRrZDHVYxjJ1wgskNt1lH9fzGjs3tgojGSCBjmEPwkWS1y29+DrizMTW19Pr9uB2nw==
-
-value-or-promise@1.0.11:
-  version "1.0.11"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/value-or-promise/-/value-or-promise-1.0.11.tgz#3e90299af31dd014fe843fe309cefa7c1d94b140"
-  integrity sha512-41BrgH+dIbCFXClcSapVs5M6GkENd3gQOJpEfPDNa71LsUGMXDL0jMWpI/Rh7WhX+Aalfz2TTS3Zt5pUsbnhLg==
 
 vary@^1, vary@~1.1.2:
   version "1.1.2"
@@ -10088,15 +8938,6 @@ webpack-cli@^4.5.0:
     rechoir "^0.7.0"
     webpack-merge "^5.7.3"
 
-webpack-graphql-loader@^1.0.2:
-  version "1.0.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/webpack-graphql-loader/-/webpack-graphql-loader-1.0.2.tgz#b7da119bea3063c1b13068c9c7bb01b203d3468b"
-  integrity sha512-tMcfC/IPMYO8RXsihjMcOplOnyTFqVUHXYZN5mRNIuDy8ADNvqYWVqs3Qi/YBP+U05uesdy9UUvf7N8QZtkc5Q==
-  dependencies:
-    apollo-codegen "^0.19.1"
-    loader-utils "^1.1.0"
-    pify "^3.0.0"
-
 webpack-merge@^5.7.3:
   version "5.8.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/webpack-merge/-/webpack-merge-5.8.0.tgz#2b39dbf22af87776ad744c390223731d30a68f61"
@@ -10152,11 +8993,6 @@ whatwg-encoding@^1.0.5:
   dependencies:
     iconv-lite "0.4.24"
 
-whatwg-fetch@2.0.4:
-  version "2.0.4"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/whatwg-fetch/-/whatwg-fetch-2.0.4.tgz#dde6a5df315f9d39991aa17621853d720b85566f"
-  integrity sha512-dcQ1GWpOD/eEQ97k66aiEVpNnapVj90/+R+SXTPYGHpYBBypfKJEQjLrvMZ7YXbKm21gXd4NcuxUTjiv1YtLng==
-
 whatwg-mimetype@^2.3.0:
   version "2.3.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/whatwg-mimetype/-/whatwg-mimetype-2.3.0.tgz#3d4b1e0312d2079879f826aff18dbeeca5960fbf"
@@ -10179,7 +9015,7 @@ whatwg-url@^8.0.0, whatwg-url@^8.5.0:
     tr46 "^2.1.0"
     webidl-conversions "^6.1.0"
 
-which-boxed-primitive@^1.0.1, which-boxed-primitive@^1.0.2:
+which-boxed-primitive@^1.0.2:
   version "1.0.2"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/which-boxed-primitive/-/which-boxed-primitive-1.0.2.tgz#13757bc89b209b049fe5d86430e21cf40a89a8e6"
   integrity sha512-bwZdv0AKLpplFY2KZRX6TvyuN7ojjr7lwkg6ml0roIy9YeuSr7JS372qlNW18UQYzgYK9ziGcerWqZOmEn9VNg==
@@ -10189,33 +9025,6 @@ which-boxed-primitive@^1.0.1, which-boxed-primitive@^1.0.2:
     is-number-object "^1.0.4"
     is-string "^1.0.5"
     is-symbol "^1.0.3"
-
-which-collection@^1.0.1:
-  version "1.0.1"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/which-collection/-/which-collection-1.0.1.tgz#70eab71ebbbd2aefaf32f917082fc62cdcb70906"
-  integrity sha512-W8xeTUwaln8i3K/cY1nGXzdnVZlidBcagyNFtBdD5kxnb4TvGKR7FfSIS3mYpwWS1QUCutfKz8IY8RjftB0+1A==
-  dependencies:
-    is-map "^2.0.1"
-    is-set "^2.0.1"
-    is-weakmap "^2.0.1"
-    is-weakset "^2.0.1"
-
-which-module@^2.0.0:
-  version "2.0.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/which-module/-/which-module-2.0.0.tgz#d9ef07dce77b9902b8a3a8fa4b31c3e3f7e6e87a"
-  integrity sha1-2e8H3Od7mQK4o6j6SzHD4/fm6Ho=
-
-which-typed-array@^1.1.2:
-  version "1.1.7"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/which-typed-array/-/which-typed-array-1.1.7.tgz#2761799b9a22d4b8660b3c1b40abaa7739691793"
-  integrity sha512-vjxaB4nfDqwKI0ws7wZpxIlde1XrLX5uB0ZjpfshgmapJMD7jJWhZI+yToJTqaFByF0eNBcYxbjmCzoRP7CfEw==
-  dependencies:
-    available-typed-arrays "^1.0.5"
-    call-bind "^1.0.2"
-    es-abstract "^1.18.5"
-    foreach "^2.0.5"
-    has-tostringtag "^1.0.0"
-    is-typed-array "^1.1.7"
 
 which@^1.2.9:
   version "1.3.1"
@@ -10247,14 +9056,6 @@ word-wrap@~1.2.3:
   version "1.2.3"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
   integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
-
-wrap-ansi@^2.0.0:
-  version "2.1.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/wrap-ansi/-/wrap-ansi-2.1.0.tgz#d8fc3d284dd05794fe84973caecdd1cf824fdd85"
-  integrity sha1-2Pw9KE3QV5T+hJc8rs3Rz4JP3YU=
-  dependencies:
-    string-width "^1.0.1"
-    strip-ansi "^3.0.1"
 
 wrap-ansi@^3.0.1:
   version "3.0.1"
@@ -10338,20 +9139,10 @@ xss@^1.0.8:
     commander "^2.20.3"
     cssfilter "0.0.10"
 
-y18n@^3.2.1:
-  version "3.2.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
-  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
-
 y18n@^5.0.5:
   version "5.0.8"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/y18n/-/y18n-5.0.8.tgz#7f4934d0f7ca8c56f95314939ddcd2dd91ce1d55"
   integrity sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==
-
-yallist@^2.1.2:
-  version "2.1.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
-  integrity sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
 
 yallist@^4.0.0:
   version "4.0.0"
@@ -10367,31 +9158,6 @@ yargs-parser@^21.0.0:
   version "21.0.1"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/yargs-parser/-/yargs-parser-21.0.1.tgz#0267f286c877a4f0f728fceb6f8a3e4cb95c6e35"
   integrity sha512-9BK1jFpLzJROCI5TzwZL/TU4gqjK5xiHV/RfWLOahrjAko/e4DJkRDZQXfvqAsiZzzYhgAzbgz6lg48jcm4GLg==
-
-yargs-parser@^8.1.0:
-  version "8.1.0"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/yargs-parser/-/yargs-parser-8.1.0.tgz#f1376a33b6629a5d063782944da732631e966950"
-  integrity sha512-yP+6QqN8BmrgW2ggLtTbdrOyBNSI7zBa4IykmiV5R1wl1JWNxQvWhMfMdmzIYtKU7oP3OOInY/tl2ov3BDjnJQ==
-  dependencies:
-    camelcase "^4.1.0"
-
-yargs@^10.0.3:
-  version "10.1.2"
-  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/yargs/-/yargs-10.1.2.tgz#454d074c2b16a51a43e2fb7807e4f9de69ccb5c5"
-  integrity sha512-ivSoxqBGYOqQVruxD35+EyCFDYNEFL/Uo6FcOnz+9xZdZzK0Zzw4r4KhbrME1Oo2gOggwJod2MnsdamSG7H9ig==
-  dependencies:
-    cliui "^4.0.0"
-    decamelize "^1.1.1"
-    find-up "^2.1.0"
-    get-caller-file "^1.0.1"
-    os-locale "^2.0.0"
-    require-directory "^2.1.1"
-    require-main-filename "^1.0.1"
-    set-blocking "^2.0.0"
-    string-width "^2.0.0"
-    which-module "^2.0.0"
-    y18n "^3.2.1"
-    yargs-parser "^8.1.0"
 
 yargs@^16.0.0, yargs@^16.2.0:
   version "16.2.0"
@@ -10437,7 +9203,7 @@ zen-observable-ts@^0.8.21:
     tslib "^1.9.3"
     zen-observable "^0.8.0"
 
-zen-observable-ts@^1.0.0, zen-observable-ts@^1.2.0:
+zen-observable-ts@^1.0.0:
   version "1.2.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/zen-observable-ts/-/zen-observable-ts-1.2.0.tgz#6925f60e9a5e8f3af72151b9d37e5789ccf70139"
   integrity sha512-3IklmJSChXaqAD2gPz6yKHThAnZL46D51x5EPpN/MHuPjrepVdSg3qI7f5fh1RT8Y+K46Owo9fpVuJiuJXLMMA==

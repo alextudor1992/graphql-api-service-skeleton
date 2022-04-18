@@ -1,8 +1,8 @@
 import '@utils/logging'
 import 'reflect-metadata'
-import { createApolloSubgraph } from '@api'
+import { createApolloServer } from '@api'
 
-createApolloSubgraph()
+createApolloServer()
   .listen()
   .then((serverInfo) => {
     console.debug('Service accessible at', serverInfo.url)
