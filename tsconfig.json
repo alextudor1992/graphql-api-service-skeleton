@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["esnext", "esnext.asynciterable"],
+    "allowJs": true,
+    "checkJs": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "inlineSourceMap": false,
+    "strict": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "Node",
+    "isolatedModules": true,
+    "allowUmdGlobalAccess": true,
+    "baseUrl": ".",
+    "paths": {
+      "@orm": ["./src/orm"],
+      "@orm/*": ["./src/orm/*"],
+      "@config": ["./src/config"],
+      "@utils": ["./src/utils"],
+      "@utils/*": ["./src/utils/*"],
+      "@type": ["./src/type"],
+      "@type/*": ["./src/type/*"],
+      "@api": ["./src/api"],
+      "@api/*": ["./src/api/*"],
+      "@resources": ["./resources"],
+      "@resources/*": ["./resources/*"]
+    }
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*.ts", "tests/**/*.ts"]
+}
