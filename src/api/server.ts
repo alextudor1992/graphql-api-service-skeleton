@@ -5,14 +5,17 @@ import { RUNTIME } from '@type'
 import config from '@config'
 import { onHealthCheck } from '@utils/serviceHealth'
 
+const isProdEnv = config.runtime === RUNTIME.prod
+
 export const createApolloServer = () =>
   new ApolloServer({
     schema,
-    tracing: config.runtime !== RUNTIME.prod,
+    tracing: !isProdEnv,
     onHealthCheck,
+    introspection: !isProdEnv,
     subscriptions: false,
     playground: {
       endpoint: '/library/graphql',
     },
-    plugins: [config.runtime !== RUNTIME.prod ? ApolloServerPluginInlineTraceDisabled : undefined],
+    plugins: [isProdEnv ? ApolloServerPluginInlineTraceDisabled : undefined],
   })
