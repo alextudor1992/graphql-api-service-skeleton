@@ -1,10 +1,10 @@
 {
-  "name": "microservice-node",
+  "name": "simple-graphql-api-service",
   "version": "0.0.1",
   "private": true,
   "description": "Boilerplate for Node.js microservices",
   "main": "src/index.ts",
-  "repository": "https://github.com/alextudor1992/microservice-node.git",
+  "repository": "https://github.com/alextudor1992/simple-graphql-api-service.git",
   "author": "Alex Tudor",
   "scripts": {
     "start": "NODE_ENV=localhost node_modules/.bin/webpack --config webpack.config.js",
@@ -52,7 +52,7 @@
     "babel-plugin-transform-remove-console": "^6.9.4",
     "babel-plugin-transform-typescript-metadata": "^0.3.2",
     "babel-plugin-typescript-to-proptypes": "^1.4.2",
-    "dotenv": "^8.2.0",
+    "dotenv-webpack": "^7.1.0",
     "jest": "27.1.0",
     "nodemon": "^2.0.7",
     "nodemon-webpack-plugin": "^4.5.2",

@@ -1,10 +1,9 @@
-const { DefinePlugin } = require('webpack')
 const { merge } = require('webpack-merge')
 const common = require('./webpack.common.js')
 const os = require('os')
 const NodemonPlugin = require('nodemon-webpack-plugin')
 const isWin32Runtime = os.platform() === 'win32'
-const dotenv = require('dotenv').config({ path: `${__dirname}/.env` })
+const Dotenv = require('dotenv-webpack')
 
 module.exports = merge(common, {
   mode: 'none',
@@ -21,13 +20,5 @@ module.exports = merge(common, {
   performance: {
     hints: 'warning',
   },
-  plugins: [
-    new DefinePlugin({
-      'process.env': JSON.stringify({
-        ...dotenv.parsed,
-        NODE_ENV: 'localhost',
-      }),
-    }),
-    new NodemonPlugin(),
-  ],
+  plugins: [new Dotenv(), new NodemonPlugin()],
 })
