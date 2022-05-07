@@ -1,8 +1,9 @@
 import 'reflect-metadata'
 import { createApolloServer } from '@api'
 
-createApolloServer()
-  .listen()
-  .then((serverInfo) => {
-    console.debug('Service accessible at', serverInfo.url)
-  })
+const startServer = async () => {
+  const serverInfo = await createApolloServer().listen()
+  console.debug('Service available on port', serverInfo.port)
+}
+
+void startServer()
