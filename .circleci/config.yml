@@ -14,8 +14,11 @@ jobs:
           command: curl -L https://pnpm.js.org/pnpm.js | node - add --global pnpm
           name: Setting up pnpm
       - run:
-          command: pnpm install
+          command: pnpm install --frozen-lockfile
           name: Installing dependencies
+      - run:
+          command: pnpm lint
+          name: Running tests
       - run:
           command: pnpm test
           name: Running tests

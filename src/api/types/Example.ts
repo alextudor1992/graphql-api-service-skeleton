@@ -13,7 +13,7 @@ export class Example {
   title?: string
 
   constructor(example?: string) {
-    this.exampleId = example ?? v4()
+    this.exampleId = example ?? v4().toString()
     this.title = 'simple title | ' + this.exampleId
   }
 }

@@ -4,3 +4,4 @@ graphql.config.json
 build
 .circleci
 babel.config.js
+webpack.config.js

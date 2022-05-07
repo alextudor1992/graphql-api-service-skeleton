@@ -8,24 +8,26 @@ import { PaginationArgs } from '@api/resolvers/Pagination'
 export class ExampleResolver extends PaginationArgs implements ResolverInterface<Example> {
   @Query((returns) => Example)
   async example(@Arg('exampleId') exampleId: string): Promise<Example> {
-    return new Example(exampleId)
+    return Promise.resolve(new Example(exampleId))
   }
 
   @Query((returns) => [Example])
   async examples(@Args() { skip, take }: PaginationArgs): Promise<Example[]> {
-    return [
-      new Example(),
-      new Example(),
-      new Example(),
-      new Example(),
-      new Example(),
-      new Example(),
-      new Example(),
-      new Example(),
-      new Example(),
-      new Example(),
-      new Example(),
-    ].slice(skip, skip + take)
+    return Promise.resolve(
+      [
+        new Example(),
+        new Example(),
+        new Example(),
+        new Example(),
+        new Example(),
+        new Example(),
+        new Example(),
+        new Example(),
+        new Example(),
+        new Example(),
+        new Example(),
+      ].slice(skip, skip + take),
+    )
   }
 
   @FieldResolver()
