@@ -2,7 +2,7 @@ version: 2.1
 orbs:
   node: circleci/node@5.0.2
 jobs:
-  test:
+  run-tests:
     docker:
       - image: 'cimg/base:stable'
     steps:
@@ -18,11 +18,11 @@ jobs:
           name: Installing dependencies
       - run:
           command: pnpm lint
-          name: Running tests
+          name: Linting code
       - run:
           command: pnpm test
           name: Running tests
 workflows:
   test:
     jobs:
-      - test
+      - run-tests
