@@ -1,18 +1,25 @@
 version: 2.1
-
 orbs:
-  node: circleci/node@4.7.0
-
+  node: circleci/node@5.0.2
 jobs:
-  install-node:
+  test:
     docker:
       - image: 'cimg/base:stable'
     steps:
       - checkout
       - node/install:
-          install-yarn: true
-      - run: node --version
+          install-yarn: false
+          node-version: '18.1.0'
+      - run:
+          command: curl -L https://pnpm.js.org/pnpm.js | node - add --global pnpm
+          name: Setting up pnpm
+      - run:
+          command: pnpm install
+          name: Installing dependencies
+      - run:
+          command: pnpm test
+          name: Running tests
 workflows:
-  install_packages:
+  test:
     jobs:
-      - install-node
+      - test

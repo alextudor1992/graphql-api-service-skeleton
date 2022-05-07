@@ -1,6 +1,7 @@
 .idea/*
 .vscode/*
 node_modules
+schema.gql
 
 # Logs
 logs
@@ -14,6 +15,7 @@ lerna-debug.log*
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # environment variables
+.env
 .env
 
 # Runtime data

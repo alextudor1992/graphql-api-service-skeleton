@@ -1,4 +1,3 @@
-import '@utils/logging'
 import 'reflect-metadata'
 import { createApolloServer } from '@api'
 
