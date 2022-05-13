@@ -7,7 +7,8 @@
   "repository": "https://github.com/alextudor1992/simple-graphql-api-service.git",
   "author": "Alex Tudor",
   "scripts": {
-    "start": "node_modules/.bin/webpack",
+    "start": "npx webpack --watch --mode=development",
+    "build": "npx webpack --mode=production",
     "test": "jest --passWithNoTests",
     "lint": "eslint . --quiet --ext .ts"
   },
@@ -60,7 +61,6 @@
     "eslint": "^8.15.0",
     "eslint-config-prettier": "^8.5.0",
     "jest": "^28.1.0",
-    "nodemon": "^2.0.7",
     "nodemon-webpack-plugin": "^4.5.2",
     "prettier": "2.6.2",
     "ts-jest": "^28.0.1",

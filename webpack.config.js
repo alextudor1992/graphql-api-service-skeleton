@@ -5,18 +5,19 @@ const Dotenv = require('dotenv-webpack')
 const path = require('path')
 const nodeExternals = require('webpack-node-externals')
 
+const NODE_MODULES_DIR = path.resolve(__dirname, 'node_modules')
+
 module.exports = {
   stats: 'minimal',
   target: 'node',
   entry: path.resolve(__dirname, 'src/index.ts'),
-  mode: 'none',
-  watch: true,
   output: {
     clean: true,
+    compareBeforeEmit: true,
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'build'),
   },
-  externals: [nodeExternals({ modulesDir: path.resolve(__dirname, 'node_modules') })],
+  externals: [nodeExternals({ modulesDir: NODE_MODULES_DIR })],
   watchOptions: {
     poll: isWin32Runtime,
     followSymlinks: !isWin32Runtime,
@@ -25,6 +26,10 @@ module.exports = {
   optimization: {
     minimize: false,
     concatenateModules: false,
+    usedExports: true,
+    removeAvailableModules: false,
+    removeEmptyChunks: false,
+    splitChunks: false,
   },
   performance: {
     hints: 'warning',
@@ -35,8 +40,8 @@ module.exports = {
       {
         test: /\.ts?$/,
         loader: 'babel-loader',
-        include: __dirname,
-        exclude: path.resolve(__dirname, 'node_modules'),
+        include: path.resolve(__dirname, 'src'),
+        exclude: NODE_MODULES_DIR,
         options: {
           cacheDirectory: true,
           cacheCompression: false,
